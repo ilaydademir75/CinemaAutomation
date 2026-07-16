@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\buildMultiTargeting\CinemaAutomation.Web.props" />
-</Project>
