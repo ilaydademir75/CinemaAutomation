@@ -1,0 +1,110 @@
+﻿@model IEnumerable<CinemaAutomation.Web.Data.Entities.Seat>
+@* View model containing seats belonging to a specific hall *@
+
+<style>
+    .page-title {
+        font-weight: 800;
+        color: #111827;
+        margin-bottom: 18px;
+        letter-spacing: 0.3px;
+        text-align: center;
+    }
+
+    .table-wrapper {
+        display: flex;
+        justify-content: center;
+    }
+
+    .table-card {
+        background: #ffffff;
+        border-radius: 24px;
+        padding: 24px;
+        box-shadow: 0 16px 40px rgba(0,0,0,0.14);
+        width: 100%;
+        max-width: 420px;
+    }
+
+    table {
+        font-size: 0.95rem;
+    }
+
+    thead th {
+        background: #111827 !important;
+        color: #ffffff;
+        font-weight: 800;
+        padding: 14px;
+        text-align: center;
+        border-bottom: none;
+    }
+
+    tbody td {
+        text-align: center;
+        vertical-align: middle;
+        padding: 12px;
+        font-weight: 600;
+    }
+
+    tbody tr {
+        transition: background-color 0.2s ease;
+    }
+
+        tbody tr:hover {
+            background-color: #f9fafb;
+        }
+
+    .row-badge {
+        display: inline-block;
+        padding: 6px 14px;
+        border-radius: 14px;
+        background-color: #e0f2fe;
+        color: #0369a1;
+        font-weight: 700;
+        font-size: 0.8rem;
+    }
+
+    .seat-badge {
+        display: inline-block;
+        padding: 6px 14px;
+        border-radius: 14px;
+        background-color: #ecfeff;
+        color: #0e7490;
+        font-weight: 700;
+        font-size: 0.8rem;
+    }
+</style>
+
+<h2 class="page-title">Hall Seats</h2>
+
+<div class="table-wrapper">
+    <div class="table-card">
+
+        <table class="table table-bordered table-hover mb-0">
+            <thead>
+                <tr>
+                    <th>Row</th>
+                    <th>Seat</th>
+                </tr>
+            </thead>
+            <tbody>
+                @* Iterates through all seats provided by the controller *@
+                @foreach (var seat in Model)
+                {
+                    <tr>
+                        <td>
+                            <span class="row-badge">
+                                @seat.RowNumber @* Displays seat row number *@
+                            </span>
+                        </td>
+                        <td>
+                            <span class="seat-badge">
+                                @seat.SeatNumber @* Displays seat number within the row *@
+                            </span>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+
+    </div>
+</div>
+

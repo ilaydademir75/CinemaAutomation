@@ -1,0 +1,120 @@
+﻿@{
+    ViewData["Title"] = "Register"; // Sets the page title
+}
+
+<style>
+    body {
+        background: linear-gradient(135deg, #f6c1cc, #fbe4ea);
+        font-family: 'Segoe UI', 'Poppins', sans-serif;
+    }
+
+    .register-card {
+        border-radius: 18px;
+        background: #fff7f9;
+        border: none;
+    }
+
+    .register-title {
+        color: #a94b63;
+        font-weight: 600;
+        letter-spacing: 0.5px;
+    }
+
+    .form-label {
+        color: #7a3e4f;
+        font-weight: 500;
+    }
+
+    .form-control {
+        border-radius: 12px;
+        border: 1px solid #e6b6c3;
+        padding: 10px 14px;
+    }
+
+        .form-control:focus {
+            border-color: #d88a9e;
+            box-shadow: 0 0 0 0.2rem rgba(216, 138, 158, 0.25);
+        }
+
+    .btn-register {
+        background-color: #d88a9e;
+        border: none;
+        border-radius: 14px;
+        font-weight: 600;
+        letter-spacing: 0.5px;
+        transition: all 0.3s ease;
+    }
+
+        .btn-register:hover {
+            background-color: #c6788c;
+            transform: translateY(-2px);
+            box-shadow: 0 6px 16px rgba(0,0,0,0.15);
+        }
+
+    .alert {
+        border-radius: 12px;
+        font-size: 0.95rem;
+    }
+</style>
+
+<div class="row justify-content-center">
+    <div class="col-md-6 col-lg-4">
+
+        <div class="card register-card shadow mt-5">
+            <div class="card-body p-4">
+
+                <h3 class="text-center mb-4 register-title">
+                    Create Account 🌸
+                </h3>
+
+                @* Displays registration error message *@
+                @if (ViewBag.Error != null)
+                {
+                    <div class="alert alert-danger text-center">
+                        @ViewBag.Error
+                    </div>
+                }
+
+                @* Registration form submits POST request to Register action *@
+                <form method="post" asp-action="Register">
+
+                    <div class="mb-3">
+                        <label class="form-label">Full Name</label>
+                        <input type="text"
+                               name="fullName"
+                               class="form-control"
+                               placeholder="Enter your full name"
+                               required />
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label">Email</label>
+                        <input type="email"
+                               name="email"
+                               class="form-control"
+                               placeholder="Enter your email"
+                               required />
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label">Password</label>
+                        <input type="password"
+                               name="password"
+                               class="form-control"
+                               placeholder="Create a password"
+                               required />
+                    </div>
+
+                    <div class="d-grid mt-4">
+                        <button type="submit" class="btn btn-register btn-lg">
+                            Register
+                        </button>
+                    </div>
+                </form>
+
+            </div>
+        </div>
+
+    </div>
+</div>
+

@@ -1,0 +1,148 @@
+﻿@model IEnumerable<CinemaAutomation.Web.Data.Entities.Movie>
+@* View model containing the list of movies to display on the home page *@
+
+@{
+    ViewData["Title"] = "Home - CineVerse"; // Sets the page title
+}
+
+<style>
+    .page-title {
+        font-weight: 900;
+        font-size: 2rem;
+        color: #111827;
+        margin-bottom: 24px;
+        text-align: center;
+        letter-spacing: 0.4px;
+    }
+
+    .empty-text {
+        text-align: center;
+        font-size: 1.1rem;
+        color: #6b7280;
+        margin-top: 40px;
+    }
+
+    .movie-card {
+        border-radius: 22px;
+        overflow: hidden;
+        box-shadow: 0 18px 40px rgba(0,0,0,0.15);
+        transition: all 0.25s ease;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+        .movie-card:hover {
+            transform: translateY(-6px);
+            box-shadow: 0 28px 60px rgba(0,0,0,0.25);
+        }
+
+    .movie-poster {
+        height: 360px;
+        object-fit: contain;
+    }
+
+    .movie-body {
+        padding: 18px;
+        display: flex;
+        flex-direction: column;
+        flex-grow: 1;
+    }
+
+    .movie-title {
+        font-weight: 800;
+        font-size: 1.1rem;
+        color: #111827;
+        margin-bottom: 8px;
+    }
+
+    .movie-desc {
+        font-size: 0.9rem;
+        color: #4b5563;
+        margin-bottom: 12px;
+        flex-grow: 1;
+    }
+
+    .movie-duration {
+        font-size: 0.85rem;
+        font-weight: 700;
+        color: #16a34a;
+        margin-bottom: 14px;
+    }
+
+    .showtime-btn {
+        border-radius: 16px;
+        padding: 10px;
+        font-weight: 800;
+        font-size: 0.9rem;
+        border: none;
+        background: linear-gradient(135deg, #6366f1, #4f46e5);
+        color: #ffffff;
+        transition: all 0.25s ease;
+        text-align: center;
+        text-decoration: none;
+    }
+
+        .showtime-btn:hover {
+            background: linear-gradient(135deg, #4f46e5, #4338ca);
+            box-shadow: 0 14px 30px rgba(79, 70, 229, 0.45);
+            transform: translateY(-2px);
+            color: #ffffff;
+        }
+</style>
+
+<h2 class="page-title">🎬 Now Showing</h2>
+
+@* Checks if there are any movies available *@
+@if (!Model.Any())
+{
+    <p class="empty-text">
+        No movies are currently available.
+    </p>
+}
+else
+{
+    <div class="row">
+        @* Iterates through movies provided by the controller *@
+        @foreach (var movie in Model)
+        {
+            <div class="col-md-4 mb-4 d-flex">
+                <div class="card movie-card w-100">
+
+                    <img src="@movie.PosterPath"
+                         class="movie-poster"
+                         alt="@movie.Title poster" />
+                    @* Displays movie poster image *@
+
+                    <div class="movie-body">
+                        <h5 class="movie-title">
+                            @movie.Title
+                        </h5>
+                        @* Displays movie title *@
+
+                        <p class="movie-desc">
+                            @movie.Description
+                        </p>
+                        @* Displays movie description *@
+
+                        <div class="movie-duration">
+                            ⏱ Duration: @movie.DurationMinutes minutes
+                        </div>
+                        @* Displays movie duration in minutes *@
+
+                        @* Navigates to showtimes list for the selected movie *@
+                        <a class="showtime-btn"
+                           asp-controller="Showtimes"
+                           asp-action="ListByMovie"
+                           asp-route-movieId="@movie.MovieId">
+                            View Showtimes
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        }
+    </div>
+}
+
+

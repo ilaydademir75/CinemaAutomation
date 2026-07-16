@@ -1,0 +1,145 @@
+﻿@model CinemaAutomation.Web.Data.Entities.Showtime
+@* View model representing the showtime being edited *@
+
+@{
+    ViewData["Title"] = "Edit Showtime"; // Sets the page title
+}
+
+<style>
+    .page-title {
+        font-weight: 800;
+        color: #111827;
+        margin-bottom: 10px;
+        letter-spacing: 0.3px;
+        text-align: center;
+    }
+
+    .page-sub {
+        color: #6b7280;
+        margin-bottom: 28px;
+        font-size: 0.95rem;
+        text-align: center;
+    }
+
+    .form-wrapper {
+        display: flex;
+        justify-content: center;
+    }
+
+    .form-card {
+        background: #ffffff;
+        border-radius: 24px;
+        padding: 32px;
+        box-shadow: 0 16px 40px rgba(0,0,0,0.14);
+        width: 100%;
+        max-width: 520px;
+    }
+
+    label {
+        font-weight: 600;
+        color: #374151;
+        margin-bottom: 6px;
+    }
+
+    .form-control {
+        border-radius: 14px;
+        padding: 10px 14px;
+        font-size: 0.95rem;
+    }
+
+        .form-control:focus {
+            border-color: #6366f1;
+            box-shadow: 0 0 0 0.2rem rgba(99, 102, 241, 0.25);
+        }
+
+    .submit-btn {
+        border-radius: 18px;
+        padding: 14px 32px;
+        font-weight: 800;
+        font-size: 0.95rem;
+        width: 100%;
+        margin-top: 14px;
+        border: none;
+        background: linear-gradient(135deg, #6366f1, #4f46e5);
+        color: #ffffff;
+        letter-spacing: 0.4px;
+        transition: all 0.25s ease;
+    }
+
+        .submit-btn:hover {
+            background: linear-gradient(135deg, #4f46e5, #4338ca);
+            transform: translateY(-2px);
+            box-shadow: 0 14px 30px rgba(79, 70, 229, 0.45);
+        }
+
+        .submit-btn:active {
+            transform: translateY(0);
+            box-shadow: 0 8px 18px rgba(79, 70, 229, 0.35);
+        }
+
+        .submit-btn:focus {
+            outline: none;
+            box-shadow: 0 0 0 0.25rem rgba(99, 102, 241, 0.35);
+        }
+</style>
+
+<h2 class="page-title">Edit Showtime</h2>
+<p class="page-sub">Update movie, hall, time and ticket price</p>
+
+<div class="form-wrapper">
+    <div class="form-card">
+
+        @* Form submits updated showtime data to Edit action *@
+        <form asp-action="Edit"
+              asp-route-id="@Model.ShowtimeId"
+              method="post">
+
+            @Html.AntiForgeryToken() @* CSRF protection token *@
+
+            <input type="hidden" name="ShowtimeId" value="@Model.ShowtimeId" />
+            @* Sends the showtime ID for update operation *@
+
+            <div class="mb-3">
+                <label>Movie</label>
+                <select name="MovieId"
+                        class="form-control"
+                        asp-items="ViewBag.Movies">
+                </select> @* Binds selected movie ID *@
+            </div>
+
+            <div class="mb-3">
+                <label>Hall</label>
+                <select name="HallId"
+                        class="form-control"
+                        asp-items="ViewBag.Halls">
+                </select> @* Binds selected hall ID *@
+            </div>
+
+            <div class="mb-3">
+                <label>Start Time</label>
+                <input type="datetime-local"
+                       name="StartTime"
+                       class="form-control"
+                       value="@Model.StartTime.ToString("yyyy-MM-ddTHH:mm")" />
+                @* Pre-fills current showtime start date/time *@
+            </div>
+
+            <div class="mb-3">
+                <label>Ticket Price</label>
+                <input type="text"
+                       name="TicketBasePrice"
+                       class="form-control"
+                       value="@Model.TicketBasePrice.ToString("0.00")"
+                       placeholder="Örn: 100,00" />
+                @* Pre-fills base ticket price *@
+            </div>
+
+            <button type="submit" class="submit-btn">
+                Update Showtime
+            </button>
+        </form>
+
+    </div>
+</div>
+
+

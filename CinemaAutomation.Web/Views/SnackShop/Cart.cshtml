@@ -1,0 +1,199 @@
+﻿@model IEnumerable<CinemaAutomation.Web.ViewModels.SnackCartItemViewModel>
+
+@{
+    ViewData["Title"] = "Snack Cart";
+    decimal total = ViewBag.Total != null ? (decimal)ViewBag.Total : 0m; // Total amount calculated in controller and passed via ViewBag
+}
+
+<style>
+    .page-title {
+        font-weight: 900;
+        color: #1e293b;
+        margin-bottom: 18px;
+        letter-spacing: 0.4px;
+    }
+
+    .cart-card {
+        background: #ffffff;
+        border-radius: 20px;
+        padding: 24px;
+        box-shadow: 0 12px 30px rgba(0,0,0,0.12);
+    }
+
+    thead th {
+        background: #1e293b !important;
+        color: #ffffff;
+        font-weight: 800;
+        padding: 14px;
+        text-align: center;
+        border-bottom: none;
+    }
+
+    tbody td {
+        text-align: center;
+        vertical-align: middle;
+        padding: 14px;
+        font-size: 0.95rem;
+    }
+
+    tbody tr:hover {
+        background-color: #f8fafc;
+    }
+
+    .qty-btn {
+        width: 30px;
+        height: 30px;
+        padding: 0;
+        border-radius: 50%;
+        font-weight: 900;
+        line-height: 1;
+    }
+
+    .total-box {
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 20px;
+        padding-top: 16px;
+        border-top: 1px solid #e5e7eb;
+    }
+
+    .total-amount {
+        font-size: 1.35rem;
+        font-weight: 900;
+        color: #0f172a;
+    }
+
+    .cart-actions {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 22px;
+        gap: 12px;
+    }
+
+    .checkout-btn {
+        border-radius: 14px;
+        padding: 12px 24px;
+        font-weight: 800;
+        background: linear-gradient(135deg, #2563eb, #1d4ed8);
+        border: none;
+        color: #ffffff;
+    }
+
+        .checkout-btn:hover {
+            background: linear-gradient(135deg, #1d4ed8, #1e40af);
+            box-shadow: 0 10px 24px rgba(37, 99, 235, 0.45);
+        }
+
+    .clear-btn {
+        border-radius: 14px;
+        padding: 12px 20px;
+        font-weight: 700;
+    }
+
+    .empty-text {
+        color: #64748b;
+        font-weight: 600;
+    }
+</style>
+
+<h2 class="page-title">Snack Cart</h2>
+
+@* Display error message if exists *@
+@if (TempData["Error"] != null)
+{
+    <div class="alert alert-danger">
+        @TempData["Error"]
+    </div>
+}
+
+@* Show message if cart is empty *@
+@if (!Model.Any())
+{
+    <p class="empty-text">Your snack cart is empty.</p>
+}
+else
+{
+    <div class="cart-card">
+        @* Snack cart table *@
+        <table class="table table-bordered table-hover align-middle mb-0">
+            <thead>
+                <tr>
+                    <th>Snack</th>
+                    <th>Unit Price</th>
+                    <th>Quantity</th>
+                    <th>Subtotal</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @* Iterate through snack cart items *@
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@item.Snack.Name</td> @* Snack name *@
+
+                        <td>@item.Snack.UnitPrice.ToString("0.00") ₺</td> @* Unit price *@
+
+                        @* Quantity controls *@
+                        <td>
+                            @* Decrease quantity *@
+                            <form asp-action="Decrease" method="post" style="display:inline;">
+                                <input type="hidden" name="snackId" value="@item.Snack.SnackId" />
+                                <button class="btn btn-sm btn-outline-secondary qty-btn">−</button>
+                            </form>
+
+                            <span style="margin:0 10px; font-weight:700;">
+                                @item.Quantity
+                            </span>
+
+                            @* Increase quantity *@
+                            <form asp-action="Increase" method="post" style="display:inline;">
+                                <input type="hidden" name="snackId" value="@item.Snack.SnackId" />
+                                <button class="btn btn-sm btn-outline-primary qty-btn">+</button>
+                            </form>
+                        </td>
+
+                        <td>@item.Subtotal.ToString("0.00") ₺</td> @* Subtotal for this snack *@
+
+                        @* Remove snack from cart *@
+                        <td>
+                            <form asp-action="RemoveFromCart" method="post">
+                                <input type="hidden" name="snackId" value="@item.Snack.SnackId" />
+                                <button type="submit" class="btn btn-outline-danger btn-sm">
+                                    Remove
+                                </button>
+                            </form>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+
+        @* Total cart amount *@
+        <div class="total-box">
+            <div class="total-amount">
+                Total: @total.ToString("0.00") ₺
+            </div>
+        </div>
+
+        @* Cart action buttons *@
+        <div class="cart-actions">
+            @* Clear entire cart *@
+            <form asp-action="ClearCart" method="post">
+                <button type="submit" class="btn btn-outline-secondary clear-btn">
+                    Clear Cart
+                </button>
+            </form>
+
+            @* Complete snack order *@
+            <form asp-action="Checkout" method="post">
+                <button type="submit" class="checkout-btn">
+                    Complete Snack Order
+                </button>
+            </form>
+        </div>
+    </div>
+}
+
+
+

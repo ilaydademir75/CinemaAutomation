@@ -1,0 +1,159 @@
+﻿@model CinemaAutomation.Web.Data.Entities.Snack
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Edit Snack</title>
+
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" /> <!-- Bootstrap base styles -->
+
+    <style>
+        body {
+            min-height: 100vh;
+            background: linear-gradient(180deg, #fff7ed, #ffedd5);
+            font-family: 'Segoe UI', Tahoma, sans-serif;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 30px;
+        }
+
+        .form-card {
+            background: #ffffff;
+            border-radius: 24px;
+            padding: 32px;
+            width: 100%;
+            max-width: 440px;
+            box-shadow: 0 18px 45px rgba(0,0,0,0.18);
+        }
+
+        .form-title {
+            font-weight: 900;
+            color: #9a3412;
+            text-align: center;
+            margin-bottom: 6px;
+            letter-spacing: 0.4px;
+        }
+
+        .form-subtitle {
+            text-align: center;
+            color: #6b7280;
+            font-size: 0.9rem;
+            margin-bottom: 24px;
+        }
+
+        label {
+            font-weight: 700;
+            color: #374151;
+            margin-bottom: 6px;
+        }
+
+        .form-control {
+            border-radius: 14px;
+            padding: 10px 14px;
+        }
+
+        .form-check-label {
+            font-weight: 600;
+            color: #374151;
+        }
+
+        .save-btn {
+            width: 100%;
+            border-radius: 18px;
+            padding: 12px;
+            font-weight: 800;
+            background: linear-gradient(135deg, #f97316, #ea580c);
+            border: none;
+            color: #ffffff;
+            transition: all 0.25s ease;
+        }
+
+            .save-btn:hover {
+                background: linear-gradient(135deg, #ea580c, #c2410c);
+                transform: translateY(-2px);
+                box-shadow: 0 14px 28px rgba(234, 88, 12, 0.45);
+            }
+
+        .back-link {
+            display: block;
+            text-align: center;
+            margin-top: 18px;
+            font-weight: 600;
+            text-decoration: none;
+            color: #9a3412;
+        }
+
+            .back-link:hover {
+                text-decoration: underline;
+            }
+    </style>
+</head>
+
+<body>
+
+    <div class="form-card">
+
+        <!-- Page header -->
+        <h4 class="form-title">Edit Snack</h4>
+        <p class="form-subtitle">
+            Update snack information and stock details
+        </p>
+
+        <!-- Snack edit form -->
+        <form asp-action="Edit">
+            @* Validation summary for model binding errors *@
+            <div asp-validation-summary="ModelOnly" class="text-danger mb-2"></div>
+            @* Hidden field to identify the snack being edited *@
+            <input type="hidden" asp-for="SnackId" />
+
+            <!-- Snack name -->
+            <div class="mb-3">
+                <label asp-for="Name" class="control-label"></label>
+                <input asp-for="Name" class="form-control" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+
+            <!-- Unit price -->
+            <div class="mb-3">
+                <label asp-for="UnitPrice" class="control-label"></label>
+                <input asp-for="UnitPrice" class="form-control" />
+                <span asp-validation-for="UnitPrice" class="text-danger"></span>
+            </div>
+
+            <!-- Stock quantity -->
+            <div class="mb-3">
+                <label asp-for="StockQuantity" class="control-label"></label>
+                <input asp-for="StockQuantity" class="form-control" />
+                <span asp-validation-for="StockQuantity" class="text-danger"></span>
+            </div>
+
+            <!-- Active / passive status -->
+            <div class="form-check mb-4">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="IsActive" />
+                    @Html.DisplayNameFor(model => model.IsActive)
+                </label>
+            </div>
+
+            <!-- Submit updated snack data -->
+            <button type="submit" class="save-btn">
+                Save Changes
+            </button>
+        </form>
+
+        <!-- Back to snack list -->
+        <a asp-action="Index" class="back-link">
+            ← Back to Snack List
+        </a>
+
+    </div>
+
+</body>
+</html>
+

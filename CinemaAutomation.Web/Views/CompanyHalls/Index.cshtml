@@ -1,0 +1,103 @@
+﻿@model IEnumerable<CinemaAutomation.Web.Data.Entities.Hall>
+@* View model containing halls managed by the company *@
+
+<style>
+    .page-title {
+        font-weight: 800;
+        color: #1f2933;
+        margin-bottom: 8px;
+        letter-spacing: 0.3px;
+    }
+
+    .page-sub {
+        color: #6c757d;
+        margin-bottom: 24px;
+        font-size: 0.95rem;
+    }
+
+    .table-card {
+        background: #ffffff;
+        border-radius: 20px;
+        padding: 24px;
+        box-shadow: 0 12px 30px rgba(0,0,0,0.10);
+    }
+
+    table {
+        font-size: 0.95rem;
+    }
+
+    thead {
+        background: linear-gradient(90deg, #e9ecef, #f8f9fa);
+    }
+
+        thead th {
+            font-weight: 700;
+            color: #495057;
+            text-align: center;
+            padding: 14px;
+            border-bottom: none;
+        }
+
+    tbody td {
+        text-align: center;
+        vertical-align: middle;
+        padding: 14px;
+    }
+
+    tbody tr {
+        transition: background-color 0.2s ease;
+    }
+
+        tbody tr:hover {
+            background-color: #f1f3f5;
+        }
+
+    .hall-name {
+        font-weight: 700;
+        color: #0d6efd;
+    }
+
+    .dimension-badge {
+        background-color: #f1f3f5;
+        border-radius: 14px;
+        padding: 6px 14px;
+        font-weight: 600;
+        font-size: 0.85rem;
+        display: inline-block;
+    }
+</style>
+
+<h2 class="page-title">My Halls</h2>
+<p class="page-sub">List of cinema halls you manage</p>
+
+<div class="table-card">
+    <table class="table table-bordered table-hover align-middle mb-0">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Rows</th>
+                <th>Columns</th>
+            </tr>
+        </thead>
+        <tbody>
+            @* Iterates through halls provided by the controller *@
+            @foreach (var hall in Model)
+            {
+                <tr>
+                    <td class="hall-name">@hall.Name</td> @* Displays hall name *@
+                    <td>
+                        <span class="dimension-badge">
+                            @hall.TotalRows @* Total number of rows in the hall *@
+                        </span>
+                    </td>
+                    <td>
+                        <span class="dimension-badge">
+                            @hall.TotalColumns @* Total number of seats per row *@
+                        </span>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+

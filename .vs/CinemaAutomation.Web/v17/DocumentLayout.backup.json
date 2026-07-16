@@ -1,0 +1,1450 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\DELL\\Desktop\\220709103_\u0130laydaDemir\\CinemaAutomation.Web\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BD4E5000-889E-436E-A93F-0CDA8779A190}|CinemaAutomation.Web\\CinemaAutomation.Web.csproj|c:\\users\\dell\\desktop\\220709103_\u0130laydademir\\cinemaautomation.web\\cinemaautomation.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD4E5000-889E-436E-A93F-0CDA8779A190}|CinemaAutomation.Web\\CinemaAutomation.Web.csproj|solutionrelative:cinemaautomation.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD4E5000-889E-436E-A93F-0CDA8779A190}|CinemaAutomation.Web\\CinemaAutomation.Web.csproj|c:\\users\\dell\\desktop\\220709103_\u0130laydademir\\cinemaautomation.web\\cinemaautomation.web\\controllers\\bookingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD4E5000-889E-436E-A93F-0CDA8779A190}|CinemaAutomation.Web\\CinemaAutomation.Web.csproj|solutionrelative:cinemaautomation.web\\controllers\\bookingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD4E5000-889E-436E-A93F-0CDA8779A190}|CinemaAutomation.Web\\CinemaAutomation.Web.csproj|c:\\users\\dell\\desktop\\220709103_\u0130laydademir\\cinemaautomation.web\\cinemaautomation.web\\controllers\\showtimescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD4E5000-889E-436E-A93F-0CDA8779A190}|CinemaAutomation.Web\\CinemaAutomation.Web.csproj|solutionrelative:cinemaautomation.web\\controllers\\showtimescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD4E5000-889E-436E-A93F-0CDA8779A190}|CinemaAutomation.Web\\CinemaAutomation.Web.csproj|c:\\users\\dell\\desktop\\220709103_\u0130laydademir\\cinemaautomation.web\\cinemaautomation.web\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD4E5000-889E-436E-A93F-0CDA8779A190}|CinemaAutomation.Web\\CinemaAutomation.Web.csproj|solutionrelative:cinemaautomation.web\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD4E5000-889E-436E-A93F-0CDA8779A190}|CinemaAutomation.Web\\CinemaAutomation.Web.csproj|c:\\users\\dell\\desktop\\220709103_\u0130laydademir\\cinemaautomation.web\\cinemaautomation.web\\controllers\\companyhallscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD4E5000-889E-436E-A93F-0CDA8779A190}|CinemaAutomation.Web\\CinemaAutomation.Web.csproj|solutionrelative:cinemaautomation.web\\controllers\\companyhallscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD4E5000-889E-436E-A93F-0CDA8779A190}|CinemaAutomation.Web\\CinemaAutomation.Web.csproj|c:\\users\\dell\\desktop\\220709103_\u0130laydademir\\cinemaautomation.web\\cinemaautomation.web\\controllers\\companycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD4E5000-889E-436E-A93F-0CDA8779A190}|CinemaAutomation.Web\\CinemaAutomation.Web.csproj|solutionrelative:cinemaautomation.web\\controllers\\companycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD4E5000-889E-436E-A93F-0CDA8779A190}|CinemaAutomation.Web\\CinemaAutomation.Web.csproj|c:\\users\\dell\\desktop\\220709103_\u0130laydademir\\cinemaautomation.web\\cinemaautomation.web\\controllers\\adminuserscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD4E5000-889E-436E-A93F-0CDA8779A190}|CinemaAutomation.Web\\CinemaAutomation.Web.csproj|solutionrelative:cinemaautomation.web\\controllers\\adminuserscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD4E5000-889E-436E-A93F-0CDA8779A190}|CinemaAutomation.Web\\CinemaAutomation.Web.csproj|c:\\users\\dell\\desktop\\220709103_\u0130laydademir\\cinemaautomation.web\\cinemaautomation.web\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD4E5000-889E-436E-A93F-0CDA8779A190}|CinemaAutomation.Web\\CinemaAutomation.Web.csproj|solutionrelative:cinemaautomation.web\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD4E5000-889E-436E-A93F-0CDA8779A190}|CinemaAutomation.Web\\CinemaAutomation.Web.csproj|c:\\users\\dell\\desktop\\220709103_\u0130laydademir\\cinemaautomation.web\\cinemaautomation.web\\controllers\\snackscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD4E5000-889E-436E-A93F-0CDA8779A190}|CinemaAutomation.Web\\CinemaAutomation.Web.csproj|solutionrelative:cinemaautomation.web\\controllers\\snackscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD4E5000-889E-436E-A93F-0CDA8779A190}|CinemaAutomation.Web\\CinemaAutomation.Web.csproj|c:\\users\\dell\\desktop\\220709103_\u0130laydademir\\cinemaautomation.web\\cinemaautomation.web\\controllers\\reportscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD4E5000-889E-436E-A93F-0CDA8779A190}|CinemaAutomation.Web\\CinemaAutomation.Web.csproj|solutionrelative:cinemaautomation.web\\controllers\\reportscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD4E5000-889E-436E-A93F-0CDA8779A190}|CinemaAutomation.Web\\CinemaAutomation.Web.csproj|c:\\users\\dell\\desktop\\220709103_\u0130laydademir\\cinemaautomation.web\\cinemaautomation.web\\controllers\\hallscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD4E5000-889E-436E-A93F-0CDA8779A190}|CinemaAutomation.Web\\CinemaAutomation.Web.csproj|solutionrelative:cinemaautomation.web\\controllers\\hallscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD4E5000-889E-436E-A93F-0CDA8779A190}|CinemaAutomation.Web\\CinemaAutomation.Web.csproj|c:\\users\\dell\\desktop\\220709103_\u0130laydademir\\cinemaautomation.web\\cinemaautomation.web\\controllers\\companyshowtimescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD4E5000-889E-436E-A93F-0CDA8779A190}|CinemaAutomation.Web\\CinemaAutomation.Web.csproj|solutionrelative:cinemaautomation.web\\controllers\\companyshowtimescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD4E5000-889E-436E-A93F-0CDA8779A190}|CinemaAutomation.Web\\CinemaAutomation.Web.csproj|c:\\users\\dell\\desktop\\220709103_\u0130laydademir\\cinemaautomation.web\\cinemaautomation.web\\controllers\\companyreportscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD4E5000-889E-436E-A93F-0CDA8779A190}|CinemaAutomation.Web\\CinemaAutomation.Web.csproj|solutionrelative:cinemaautomation.web\\controllers\\companyreportscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD4E5000-889E-436E-A93F-0CDA8779A190}|CinemaAutomation.Web\\CinemaAutomation.Web.csproj|c:\\users\\dell\\desktop\\220709103_\u0130laydademir\\cinemaautomation.web\\cinemaautomation.web\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD4E5000-889E-436E-A93F-0CDA8779A190}|CinemaAutomation.Web\\CinemaAutomation.Web.csproj|solutionrelative:cinemaautomation.web\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD4E5000-889E-436E-A93F-0CDA8779A190}|CinemaAutomation.Web\\CinemaAutomation.Web.csproj|c:\\users\\dell\\desktop\\220709103_\u0130laydademir\\cinemaautomation.web\\cinemaautomation.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{BD4E5000-889E-436E-A93F-0CDA8779A190}|CinemaAutomation.Web\\CinemaAutomation.Web.csproj|solutionrelative:cinemaautomation.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD4E5000-889E-436E-A93F-0CDA8779A190}|CinemaAutomation.Web\\CinemaAutomation.Web.csproj|c:\\users\\dell\\desktop\\220709103_\u0130laydademir\\cinemaautomation.web\\cinemaautomation.web\\views\\showtimes\\listbymovie.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BD4E5000-889E-436E-A93F-0CDA8779A190}|CinemaAutomation.Web\\CinemaAutomation.Web.csproj|solutionrelative:cinemaautomation.web\\views\\showtimes\\listbymovie.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD4E5000-889E-436E-A93F-0CDA8779A190}|CinemaAutomation.Web\\CinemaAutomation.Web.csproj|c:\\users\\dell\\desktop\\220709103_\u0130laydademir\\cinemaautomation.web\\cinemaautomation.web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BD4E5000-889E-436E-A93F-0CDA8779A190}|CinemaAutomation.Web\\CinemaAutomation.Web.csproj|solutionrelative:cinemaautomation.web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD4E5000-889E-436E-A93F-0CDA8779A190}|CinemaAutomation.Web\\CinemaAutomation.Web.csproj|c:\\users\\dell\\desktop\\220709103_\u0130laydademir\\cinemaautomation.web\\cinemaautomation.web\\views\\reports\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BD4E5000-889E-436E-A93F-0CDA8779A190}|CinemaAutomation.Web\\CinemaAutomation.Web.csproj|solutionrelative:cinemaautomation.web\\views\\reports\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD4E5000-889E-436E-A93F-0CDA8779A190}|CinemaAutomation.Web\\CinemaAutomation.Web.csproj|c:\\users\\dell\\desktop\\220709103_\u0130laydademir\\cinemaautomation.web\\cinemaautomation.web\\views\\movies\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BD4E5000-889E-436E-A93F-0CDA8779A190}|CinemaAutomation.Web\\CinemaAutomation.Web.csproj|solutionrelative:cinemaautomation.web\\views\\movies\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD4E5000-889E-436E-A93F-0CDA8779A190}|CinemaAutomation.Web\\CinemaAutomation.Web.csproj|c:\\users\\dell\\desktop\\220709103_\u0130laydademir\\cinemaautomation.web\\cinemaautomation.web\\views\\halls\\viewseats.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BD4E5000-889E-436E-A93F-0CDA8779A190}|CinemaAutomation.Web\\CinemaAutomation.Web.csproj|solutionrelative:cinemaautomation.web\\views\\halls\\viewseats.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD4E5000-889E-436E-A93F-0CDA8779A190}|CinemaAutomation.Web\\CinemaAutomation.Web.csproj|c:\\users\\dell\\desktop\\220709103_\u0130laydademir\\cinemaautomation.web\\cinemaautomation.web\\views\\halls\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BD4E5000-889E-436E-A93F-0CDA8779A190}|CinemaAutomation.Web\\CinemaAutomation.Web.csproj|solutionrelative:cinemaautomation.web\\views\\halls\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD4E5000-889E-436E-A93F-0CDA8779A190}|CinemaAutomation.Web\\CinemaAutomation.Web.csproj|c:\\users\\dell\\desktop\\220709103_\u0130laydademir\\cinemaautomation.web\\cinemaautomation.web\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BD4E5000-889E-436E-A93F-0CDA8779A190}|CinemaAutomation.Web\\CinemaAutomation.Web.csproj|solutionrelative:cinemaautomation.web\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD4E5000-889E-436E-A93F-0CDA8779A190}|CinemaAutomation.Web\\CinemaAutomation.Web.csproj|c:\\users\\dell\\desktop\\220709103_\u0130laydademir\\cinemaautomation.web\\cinemaautomation.web\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BD4E5000-889E-436E-A93F-0CDA8779A190}|CinemaAutomation.Web\\CinemaAutomation.Web.csproj|solutionrelative:cinemaautomation.web\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD4E5000-889E-436E-A93F-0CDA8779A190}|CinemaAutomation.Web\\CinemaAutomation.Web.csproj|c:\\users\\dell\\desktop\\220709103_\u0130laydademir\\cinemaautomation.web\\cinemaautomation.web\\views\\companyshowtimes\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BD4E5000-889E-436E-A93F-0CDA8779A190}|CinemaAutomation.Web\\CinemaAutomation.Web.csproj|solutionrelative:cinemaautomation.web\\views\\companyshowtimes\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD4E5000-889E-436E-A93F-0CDA8779A190}|CinemaAutomation.Web\\CinemaAutomation.Web.csproj|c:\\users\\dell\\desktop\\220709103_\u0130laydademir\\cinemaautomation.web\\cinemaautomation.web\\views\\companyreports\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BD4E5000-889E-436E-A93F-0CDA8779A190}|CinemaAutomation.Web\\CinemaAutomation.Web.csproj|solutionrelative:cinemaautomation.web\\views\\companyreports\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD4E5000-889E-436E-A93F-0CDA8779A190}|CinemaAutomation.Web\\CinemaAutomation.Web.csproj|c:\\users\\dell\\desktop\\220709103_\u0130laydademir\\cinemaautomation.web\\cinemaautomation.web\\views\\companyhalls\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BD4E5000-889E-436E-A93F-0CDA8779A190}|CinemaAutomation.Web\\CinemaAutomation.Web.csproj|solutionrelative:cinemaautomation.web\\views\\companyhalls\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD4E5000-889E-436E-A93F-0CDA8779A190}|CinemaAutomation.Web\\CinemaAutomation.Web.csproj|c:\\users\\dell\\desktop\\220709103_\u0130laydademir\\cinemaautomation.web\\cinemaautomation.web\\views\\company\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BD4E5000-889E-436E-A93F-0CDA8779A190}|CinemaAutomation.Web\\CinemaAutomation.Web.csproj|solutionrelative:cinemaautomation.web\\views\\company\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD4E5000-889E-436E-A93F-0CDA8779A190}|CinemaAutomation.Web\\CinemaAutomation.Web.csproj|c:\\users\\dell\\desktop\\220709103_\u0130laydademir\\cinemaautomation.web\\cinemaautomation.web\\views\\booking\\success.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BD4E5000-889E-436E-A93F-0CDA8779A190}|CinemaAutomation.Web\\CinemaAutomation.Web.csproj|solutionrelative:cinemaautomation.web\\views\\booking\\success.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD4E5000-889E-436E-A93F-0CDA8779A190}|CinemaAutomation.Web\\CinemaAutomation.Web.csproj|c:\\users\\dell\\desktop\\220709103_\u0130laydademir\\cinemaautomation.web\\cinemaautomation.web\\views\\booking\\selectseats.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BD4E5000-889E-436E-A93F-0CDA8779A190}|CinemaAutomation.Web\\CinemaAutomation.Web.csproj|solutionrelative:cinemaautomation.web\\views\\booking\\selectseats.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD4E5000-889E-436E-A93F-0CDA8779A190}|CinemaAutomation.Web\\CinemaAutomation.Web.csproj|c:\\users\\dell\\desktop\\220709103_\u0130laydademir\\cinemaautomation.web\\cinemaautomation.web\\views\\booking\\mybookings.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BD4E5000-889E-436E-A93F-0CDA8779A190}|CinemaAutomation.Web\\CinemaAutomation.Web.csproj|solutionrelative:cinemaautomation.web\\views\\booking\\mybookings.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD4E5000-889E-436E-A93F-0CDA8779A190}|CinemaAutomation.Web\\CinemaAutomation.Web.csproj|c:\\users\\dell\\desktop\\220709103_\u0130laydademir\\cinemaautomation.web\\cinemaautomation.web\\views\\booking\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BD4E5000-889E-436E-A93F-0CDA8779A190}|CinemaAutomation.Web\\CinemaAutomation.Web.csproj|solutionrelative:cinemaautomation.web\\views\\booking\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD4E5000-889E-436E-A93F-0CDA8779A190}|CinemaAutomation.Web\\CinemaAutomation.Web.csproj|c:\\users\\dell\\desktop\\220709103_\u0130laydademir\\cinemaautomation.web\\cinemaautomation.web\\views\\booking\\bookingdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BD4E5000-889E-436E-A93F-0CDA8779A190}|CinemaAutomation.Web\\CinemaAutomation.Web.csproj|solutionrelative:cinemaautomation.web\\views\\booking\\bookingdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD4E5000-889E-436E-A93F-0CDA8779A190}|CinemaAutomation.Web\\CinemaAutomation.Web.csproj|c:\\users\\dell\\desktop\\220709103_\u0130laydademir\\cinemaautomation.web\\cinemaautomation.web\\views\\adminusers\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BD4E5000-889E-436E-A93F-0CDA8779A190}|CinemaAutomation.Web\\CinemaAutomation.Web.csproj|solutionrelative:cinemaautomation.web\\views\\adminusers\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD4E5000-889E-436E-A93F-0CDA8779A190}|CinemaAutomation.Web\\CinemaAutomation.Web.csproj|c:\\users\\dell\\desktop\\220709103_\u0130laydademir\\cinemaautomation.web\\cinemaautomation.web\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BD4E5000-889E-436E-A93F-0CDA8779A190}|CinemaAutomation.Web\\CinemaAutomation.Web.csproj|solutionrelative:cinemaautomation.web\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD4E5000-889E-436E-A93F-0CDA8779A190}|CinemaAutomation.Web\\CinemaAutomation.Web.csproj|c:\\users\\dell\\desktop\\220709103_\u0130laydademir\\cinemaautomation.web\\cinemaautomation.web\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BD4E5000-889E-436E-A93F-0CDA8779A190}|CinemaAutomation.Web\\CinemaAutomation.Web.csproj|solutionrelative:cinemaautomation.web\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD4E5000-889E-436E-A93F-0CDA8779A190}|CinemaAutomation.Web\\CinemaAutomation.Web.csproj|c:\\users\\dell\\desktop\\220709103_\u0130laydademir\\cinemaautomation.web\\cinemaautomation.web\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BD4E5000-889E-436E-A93F-0CDA8779A190}|CinemaAutomation.Web\\CinemaAutomation.Web.csproj|solutionrelative:cinemaautomation.web\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD4E5000-889E-436E-A93F-0CDA8779A190}|CinemaAutomation.Web\\CinemaAutomation.Web.csproj|c:\\users\\dell\\desktop\\220709103_\u0130laydademir\\cinemaautomation.web\\cinemaautomation.web\\viewmodels\\snackcartitemviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD4E5000-889E-436E-A93F-0CDA8779A190}|CinemaAutomation.Web\\CinemaAutomation.Web.csproj|solutionrelative:cinemaautomation.web\\viewmodels\\snackcartitemviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD4E5000-889E-436E-A93F-0CDA8779A190}|CinemaAutomation.Web\\CinemaAutomation.Web.csproj|c:\\users\\dell\\desktop\\220709103_\u0130laydademir\\cinemaautomation.web\\cinemaautomation.web\\viewmodels\\checkoutviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD4E5000-889E-436E-A93F-0CDA8779A190}|CinemaAutomation.Web\\CinemaAutomation.Web.csproj|solutionrelative:cinemaautomation.web\\viewmodels\\checkoutviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD4E5000-889E-436E-A93F-0CDA8779A190}|CinemaAutomation.Web\\CinemaAutomation.Web.csproj|c:\\users\\dell\\desktop\\220709103_\u0130laydademir\\cinemaautomation.web\\cinemaautomation.web\\viewmodels\\bookinghistoryviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD4E5000-889E-436E-A93F-0CDA8779A190}|CinemaAutomation.Web\\CinemaAutomation.Web.csproj|solutionrelative:cinemaautomation.web\\viewmodels\\bookinghistoryviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD4E5000-889E-436E-A93F-0CDA8779A190}|CinemaAutomation.Web\\CinemaAutomation.Web.csproj|c:\\users\\dell\\desktop\\220709103_\u0130laydademir\\cinemaautomation.web\\cinemaautomation.web\\viewmodels\\bookingdetailsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD4E5000-889E-436E-A93F-0CDA8779A190}|CinemaAutomation.Web\\CinemaAutomation.Web.csproj|solutionrelative:cinemaautomation.web\\viewmodels\\bookingdetailsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD4E5000-889E-436E-A93F-0CDA8779A190}|CinemaAutomation.Web\\CinemaAutomation.Web.csproj|c:\\users\\dell\\desktop\\220709103_\u0130laydademir\\cinemaautomation.web\\cinemaautomation.web\\viewmodels\\reports\\snacksalesvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD4E5000-889E-436E-A93F-0CDA8779A190}|CinemaAutomation.Web\\CinemaAutomation.Web.csproj|solutionrelative:cinemaautomation.web\\viewmodels\\reports\\snacksalesvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD4E5000-889E-436E-A93F-0CDA8779A190}|CinemaAutomation.Web\\CinemaAutomation.Web.csproj|c:\\users\\dell\\desktop\\220709103_\u0130laydademir\\cinemaautomation.web\\cinemaautomation.web\\viewmodels\\reports\\reportsdashboardvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD4E5000-889E-436E-A93F-0CDA8779A190}|CinemaAutomation.Web\\CinemaAutomation.Web.csproj|solutionrelative:cinemaautomation.web\\viewmodels\\reports\\reportsdashboardvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD4E5000-889E-436E-A93F-0CDA8779A190}|CinemaAutomation.Web\\CinemaAutomation.Web.csproj|c:\\users\\dell\\desktop\\220709103_\u0130laydademir\\cinemaautomation.web\\cinemaautomation.web\\viewmodels\\reports\\movierevenuevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD4E5000-889E-436E-A93F-0CDA8779A190}|CinemaAutomation.Web\\CinemaAutomation.Web.csproj|solutionrelative:cinemaautomation.web\\viewmodels\\reports\\movierevenuevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD4E5000-889E-436E-A93F-0CDA8779A190}|CinemaAutomation.Web\\CinemaAutomation.Web.csproj|c:\\users\\dell\\desktop\\220709103_\u0130laydademir\\cinemaautomation.web\\cinemaautomation.web\\viewmodels\\reports\\halloccupancyvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD4E5000-889E-436E-A93F-0CDA8779A190}|CinemaAutomation.Web\\CinemaAutomation.Web.csproj|solutionrelative:cinemaautomation.web\\viewmodels\\reports\\halloccupancyvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD4E5000-889E-436E-A93F-0CDA8779A190}|CinemaAutomation.Web\\CinemaAutomation.Web.csproj|c:\\users\\dell\\desktop\\220709103_\u0130laydademir\\cinemaautomation.web\\cinemaautomation.web\\viewmodels\\reports\\dailysalesvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD4E5000-889E-436E-A93F-0CDA8779A190}|CinemaAutomation.Web\\CinemaAutomation.Web.csproj|solutionrelative:cinemaautomation.web\\viewmodels\\reports\\dailysalesvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD4E5000-889E-436E-A93F-0CDA8779A190}|CinemaAutomation.Web\\CinemaAutomation.Web.csproj|c:\\users\\dell\\desktop\\220709103_\u0130laydademir\\cinemaautomation.web\\cinemaautomation.web\\extensions\\sessionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD4E5000-889E-436E-A93F-0CDA8779A190}|CinemaAutomation.Web\\CinemaAutomation.Web.csproj|solutionrelative:cinemaautomation.web\\extensions\\sessionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD4E5000-889E-436E-A93F-0CDA8779A190}|CinemaAutomation.Web\\CinemaAutomation.Web.csproj|c:\\users\\dell\\desktop\\220709103_\u0130laydademir\\cinemaautomation.web\\cinemaautomation.web\\data\\cinemadbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD4E5000-889E-436E-A93F-0CDA8779A190}|CinemaAutomation.Web\\CinemaAutomation.Web.csproj|solutionrelative:cinemaautomation.web\\data\\cinemadbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD4E5000-889E-436E-A93F-0CDA8779A190}|CinemaAutomation.Web\\CinemaAutomation.Web.csproj|c:\\users\\dell\\desktop\\220709103_\u0130laydademir\\cinemaautomation.web\\cinemaautomation.web\\data\\entities\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD4E5000-889E-436E-A93F-0CDA8779A190}|CinemaAutomation.Web\\CinemaAutomation.Web.csproj|solutionrelative:cinemaautomation.web\\data\\entities\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD4E5000-889E-436E-A93F-0CDA8779A190}|CinemaAutomation.Web\\CinemaAutomation.Web.csproj|c:\\users\\dell\\desktop\\220709103_\u0130laydademir\\cinemaautomation.web\\cinemaautomation.web\\data\\entities\\auditlog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD4E5000-889E-436E-A93F-0CDA8779A190}|CinemaAutomation.Web\\CinemaAutomation.Web.csproj|solutionrelative:cinemaautomation.web\\data\\entities\\auditlog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD4E5000-889E-436E-A93F-0CDA8779A190}|CinemaAutomation.Web\\CinemaAutomation.Web.csproj|c:\\users\\dell\\desktop\\220709103_\u0130laydademir\\cinemaautomation.web\\cinemaautomation.web\\controllers\\snackshopcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD4E5000-889E-436E-A93F-0CDA8779A190}|CinemaAutomation.Web\\CinemaAutomation.Web.csproj|solutionrelative:cinemaautomation.web\\controllers\\snackshopcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD4E5000-889E-436E-A93F-0CDA8779A190}|CinemaAutomation.Web\\CinemaAutomation.Web.csproj|c:\\users\\dell\\desktop\\220709103_\u0130laydademir\\cinemaautomation.web\\cinemaautomation.web\\controllers\\moviescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD4E5000-889E-436E-A93F-0CDA8779A190}|CinemaAutomation.Web\\CinemaAutomation.Web.csproj|solutionrelative:cinemaautomation.web\\controllers\\moviescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD4E5000-889E-436E-A93F-0CDA8779A190}|CinemaAutomation.Web\\CinemaAutomation.Web.csproj|c:\\users\\dell\\desktop\\220709103_\u0130laydademir\\cinemaautomation.web\\cinemaautomation.web\\data\\entities\\hall.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD4E5000-889E-436E-A93F-0CDA8779A190}|CinemaAutomation.Web\\CinemaAutomation.Web.csproj|solutionrelative:cinemaautomation.web\\data\\entities\\hall.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD4E5000-889E-436E-A93F-0CDA8779A190}|CinemaAutomation.Web\\CinemaAutomation.Web.csproj|c:\\users\\dell\\desktop\\220709103_\u0130laydademir\\cinemaautomation.web\\cinemaautomation.web\\views\\snackshop\\orders.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BD4E5000-889E-436E-A93F-0CDA8779A190}|CinemaAutomation.Web\\CinemaAutomation.Web.csproj|solutionrelative:cinemaautomation.web\\views\\snackshop\\orders.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD4E5000-889E-436E-A93F-0CDA8779A190}|CinemaAutomation.Web\\CinemaAutomation.Web.csproj|c:\\users\\dell\\desktop\\220709103_\u0130laydademir\\cinemaautomation.web\\cinemaautomation.web\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BD4E5000-889E-436E-A93F-0CDA8779A190}|CinemaAutomation.Web\\CinemaAutomation.Web.csproj|solutionrelative:cinemaautomation.web\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD4E5000-889E-436E-A93F-0CDA8779A190}|CinemaAutomation.Web\\CinemaAutomation.Web.csproj|c:\\users\\dell\\desktop\\220709103_\u0130laydademir\\cinemaautomation.web\\cinemaautomation.web\\views\\snackshop\\orderdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BD4E5000-889E-436E-A93F-0CDA8779A190}|CinemaAutomation.Web\\CinemaAutomation.Web.csproj|solutionrelative:cinemaautomation.web\\views\\snackshop\\orderdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD4E5000-889E-436E-A93F-0CDA8779A190}|CinemaAutomation.Web\\CinemaAutomation.Web.csproj|c:\\users\\dell\\desktop\\220709103_\u0130laydademir\\cinemaautomation.web\\cinemaautomation.web\\views\\snackshop\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BD4E5000-889E-436E-A93F-0CDA8779A190}|CinemaAutomation.Web\\CinemaAutomation.Web.csproj|solutionrelative:cinemaautomation.web\\views\\snackshop\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD4E5000-889E-436E-A93F-0CDA8779A190}|CinemaAutomation.Web\\CinemaAutomation.Web.csproj|c:\\users\\dell\\desktop\\220709103_\u0130laydademir\\cinemaautomation.web\\cinemaautomation.web\\views\\snackshop\\cart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BD4E5000-889E-436E-A93F-0CDA8779A190}|CinemaAutomation.Web\\CinemaAutomation.Web.csproj|solutionrelative:cinemaautomation.web\\views\\snackshop\\cart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD4E5000-889E-436E-A93F-0CDA8779A190}|CinemaAutomation.Web\\CinemaAutomation.Web.csproj|c:\\users\\dell\\desktop\\220709103_\u0130laydademir\\cinemaautomation.web\\cinemaautomation.web\\views\\snacks\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BD4E5000-889E-436E-A93F-0CDA8779A190}|CinemaAutomation.Web\\CinemaAutomation.Web.csproj|solutionrelative:cinemaautomation.web\\views\\snacks\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD4E5000-889E-436E-A93F-0CDA8779A190}|CinemaAutomation.Web\\CinemaAutomation.Web.csproj|c:\\users\\dell\\desktop\\220709103_\u0130laydademir\\cinemaautomation.web\\cinemaautomation.web\\views\\snacks\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BD4E5000-889E-436E-A93F-0CDA8779A190}|CinemaAutomation.Web\\CinemaAutomation.Web.csproj|solutionrelative:cinemaautomation.web\\views\\snacks\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD4E5000-889E-436E-A93F-0CDA8779A190}|CinemaAutomation.Web\\CinemaAutomation.Web.csproj|c:\\users\\dell\\desktop\\220709103_\u0130laydademir\\cinemaautomation.web\\cinemaautomation.web\\views\\snacks\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BD4E5000-889E-436E-A93F-0CDA8779A190}|CinemaAutomation.Web\\CinemaAutomation.Web.csproj|solutionrelative:cinemaautomation.web\\views\\snacks\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD4E5000-889E-436E-A93F-0CDA8779A190}|CinemaAutomation.Web\\CinemaAutomation.Web.csproj|c:\\users\\dell\\desktop\\220709103_\u0130laydademir\\cinemaautomation.web\\cinemaautomation.web\\views\\snacks\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BD4E5000-889E-436E-A93F-0CDA8779A190}|CinemaAutomation.Web\\CinemaAutomation.Web.csproj|solutionrelative:cinemaautomation.web\\views\\snacks\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD4E5000-889E-436E-A93F-0CDA8779A190}|CinemaAutomation.Web\\CinemaAutomation.Web.csproj|c:\\users\\dell\\desktop\\220709103_\u0130laydademir\\cinemaautomation.web\\cinemaautomation.web\\views\\snacks\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BD4E5000-889E-436E-A93F-0CDA8779A190}|CinemaAutomation.Web\\CinemaAutomation.Web.csproj|solutionrelative:cinemaautomation.web\\views\\snacks\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD4E5000-889E-436E-A93F-0CDA8779A190}|CinemaAutomation.Web\\CinemaAutomation.Web.csproj|c:\\users\\dell\\desktop\\220709103_\u0130laydademir\\cinemaautomation.web\\cinemaautomation.web\\views\\showtimes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BD4E5000-889E-436E-A93F-0CDA8779A190}|CinemaAutomation.Web\\CinemaAutomation.Web.csproj|solutionrelative:cinemaautomation.web\\views\\showtimes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD4E5000-889E-436E-A93F-0CDA8779A190}|CinemaAutomation.Web\\CinemaAutomation.Web.csproj|c:\\users\\dell\\desktop\\220709103_\u0130laydademir\\cinemaautomation.web\\cinemaautomation.web\\views\\showtimes\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BD4E5000-889E-436E-A93F-0CDA8779A190}|CinemaAutomation.Web\\CinemaAutomation.Web.csproj|solutionrelative:cinemaautomation.web\\views\\showtimes\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD4E5000-889E-436E-A93F-0CDA8779A190}|CinemaAutomation.Web\\CinemaAutomation.Web.csproj|c:\\users\\dell\\desktop\\220709103_\u0130laydademir\\cinemaautomation.web\\cinemaautomation.web\\views\\showtimes\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BD4E5000-889E-436E-A93F-0CDA8779A190}|CinemaAutomation.Web\\CinemaAutomation.Web.csproj|solutionrelative:cinemaautomation.web\\views\\showtimes\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD4E5000-889E-436E-A93F-0CDA8779A190}|CinemaAutomation.Web\\CinemaAutomation.Web.csproj|c:\\users\\dell\\desktop\\220709103_\u0130laydademir\\cinemaautomation.web\\cinemaautomation.web\\views\\showtimes\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BD4E5000-889E-436E-A93F-0CDA8779A190}|CinemaAutomation.Web\\CinemaAutomation.Web.csproj|solutionrelative:cinemaautomation.web\\views\\showtimes\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD4E5000-889E-436E-A93F-0CDA8779A190}|CinemaAutomation.Web\\CinemaAutomation.Web.csproj|c:\\users\\dell\\desktop\\220709103_\u0130laydademir\\cinemaautomation.web\\cinemaautomation.web\\views\\showtimes\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BD4E5000-889E-436E-A93F-0CDA8779A190}|CinemaAutomation.Web\\CinemaAutomation.Web.csproj|solutionrelative:cinemaautomation.web\\views\\showtimes\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD4E5000-889E-436E-A93F-0CDA8779A190}|CinemaAutomation.Web\\CinemaAutomation.Web.csproj|c:\\users\\dell\\desktop\\220709103_\u0130laydademir\\cinemaautomation.web\\cinemaautomation.web\\views\\movies\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BD4E5000-889E-436E-A93F-0CDA8779A190}|CinemaAutomation.Web\\CinemaAutomation.Web.csproj|solutionrelative:cinemaautomation.web\\views\\movies\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD4E5000-889E-436E-A93F-0CDA8779A190}|CinemaAutomation.Web\\CinemaAutomation.Web.csproj|c:\\users\\dell\\desktop\\220709103_\u0130laydademir\\cinemaautomation.web\\cinemaautomation.web\\views\\movies\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BD4E5000-889E-436E-A93F-0CDA8779A190}|CinemaAutomation.Web\\CinemaAutomation.Web.csproj|solutionrelative:cinemaautomation.web\\views\\movies\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD4E5000-889E-436E-A93F-0CDA8779A190}|CinemaAutomation.Web\\CinemaAutomation.Web.csproj|c:\\users\\dell\\desktop\\220709103_\u0130laydademir\\cinemaautomation.web\\cinemaautomation.web\\views\\movies\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BD4E5000-889E-436E-A93F-0CDA8779A190}|CinemaAutomation.Web\\CinemaAutomation.Web.csproj|solutionrelative:cinemaautomation.web\\views\\movies\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD4E5000-889E-436E-A93F-0CDA8779A190}|CinemaAutomation.Web\\CinemaAutomation.Web.csproj|c:\\users\\dell\\desktop\\220709103_\u0130laydademir\\cinemaautomation.web\\cinemaautomation.web\\views\\movies\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BD4E5000-889E-436E-A93F-0CDA8779A190}|CinemaAutomation.Web\\CinemaAutomation.Web.csproj|solutionrelative:cinemaautomation.web\\views\\movies\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD4E5000-889E-436E-A93F-0CDA8779A190}|CinemaAutomation.Web\\CinemaAutomation.Web.csproj|c:\\users\\dell\\desktop\\220709103_\u0130laydademir\\cinemaautomation.web\\cinemaautomation.web\\views\\halls\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BD4E5000-889E-436E-A93F-0CDA8779A190}|CinemaAutomation.Web\\CinemaAutomation.Web.csproj|solutionrelative:cinemaautomation.web\\views\\halls\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD4E5000-889E-436E-A93F-0CDA8779A190}|CinemaAutomation.Web\\CinemaAutomation.Web.csproj|c:\\users\\dell\\desktop\\220709103_\u0130laydademir\\cinemaautomation.web\\cinemaautomation.web\\views\\halls\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BD4E5000-889E-436E-A93F-0CDA8779A190}|CinemaAutomation.Web\\CinemaAutomation.Web.csproj|solutionrelative:cinemaautomation.web\\views\\halls\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD4E5000-889E-436E-A93F-0CDA8779A190}|CinemaAutomation.Web\\CinemaAutomation.Web.csproj|c:\\users\\dell\\desktop\\220709103_\u0130laydademir\\cinemaautomation.web\\cinemaautomation.web\\views\\halls\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BD4E5000-889E-436E-A93F-0CDA8779A190}|CinemaAutomation.Web\\CinemaAutomation.Web.csproj|solutionrelative:cinemaautomation.web\\views\\halls\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD4E5000-889E-436E-A93F-0CDA8779A190}|CinemaAutomation.Web\\CinemaAutomation.Web.csproj|c:\\users\\dell\\desktop\\220709103_\u0130laydademir\\cinemaautomation.web\\cinemaautomation.web\\views\\halls\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BD4E5000-889E-436E-A93F-0CDA8779A190}|CinemaAutomation.Web\\CinemaAutomation.Web.csproj|solutionrelative:cinemaautomation.web\\views\\halls\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD4E5000-889E-436E-A93F-0CDA8779A190}|CinemaAutomation.Web\\CinemaAutomation.Web.csproj|c:\\users\\dell\\desktop\\220709103_\u0130laydademir\\cinemaautomation.web\\cinemaautomation.web\\views\\companyshowtimes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BD4E5000-889E-436E-A93F-0CDA8779A190}|CinemaAutomation.Web\\CinemaAutomation.Web.csproj|solutionrelative:cinemaautomation.web\\views\\companyshowtimes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD4E5000-889E-436E-A93F-0CDA8779A190}|CinemaAutomation.Web\\CinemaAutomation.Web.csproj|c:\\users\\dell\\desktop\\220709103_\u0130laydademir\\cinemaautomation.web\\cinemaautomation.web\\views\\companyshowtimes\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BD4E5000-889E-436E-A93F-0CDA8779A190}|CinemaAutomation.Web\\CinemaAutomation.Web.csproj|solutionrelative:cinemaautomation.web\\views\\companyshowtimes\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD4E5000-889E-436E-A93F-0CDA8779A190}|CinemaAutomation.Web\\CinemaAutomation.Web.csproj|c:\\users\\dell\\desktop\\220709103_\u0130laydademir\\cinemaautomation.web\\cinemaautomation.web\\data\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD4E5000-889E-436E-A93F-0CDA8779A190}|CinemaAutomation.Web\\CinemaAutomation.Web.csproj|solutionrelative:cinemaautomation.web\\data\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD4E5000-889E-436E-A93F-0CDA8779A190}|CinemaAutomation.Web\\CinemaAutomation.Web.csproj|c:\\users\\dell\\desktop\\220709103_\u0130laydademir\\cinemaautomation.web\\cinemaautomation.web\\data\\entities\\snackorderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD4E5000-889E-436E-A93F-0CDA8779A190}|CinemaAutomation.Web\\CinemaAutomation.Web.csproj|solutionrelative:cinemaautomation.web\\data\\entities\\snackorderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD4E5000-889E-436E-A93F-0CDA8779A190}|CinemaAutomation.Web\\CinemaAutomation.Web.csproj|c:\\users\\dell\\desktop\\220709103_\u0130laydademir\\cinemaautomation.web\\cinemaautomation.web\\data\\entities\\snackorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD4E5000-889E-436E-A93F-0CDA8779A190}|CinemaAutomation.Web\\CinemaAutomation.Web.csproj|solutionrelative:cinemaautomation.web\\data\\entities\\snackorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD4E5000-889E-436E-A93F-0CDA8779A190}|CinemaAutomation.Web\\CinemaAutomation.Web.csproj|c:\\users\\dell\\desktop\\220709103_\u0130laydademir\\cinemaautomation.web\\cinemaautomation.web\\data\\entities\\snack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD4E5000-889E-436E-A93F-0CDA8779A190}|CinemaAutomation.Web\\CinemaAutomation.Web.csproj|solutionrelative:cinemaautomation.web\\data\\entities\\snack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD4E5000-889E-436E-A93F-0CDA8779A190}|CinemaAutomation.Web\\CinemaAutomation.Web.csproj|c:\\users\\dell\\desktop\\220709103_\u0130laydademir\\cinemaautomation.web\\cinemaautomation.web\\data\\entities\\showtimeseat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD4E5000-889E-436E-A93F-0CDA8779A190}|CinemaAutomation.Web\\CinemaAutomation.Web.csproj|solutionrelative:cinemaautomation.web\\data\\entities\\showtimeseat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD4E5000-889E-436E-A93F-0CDA8779A190}|CinemaAutomation.Web\\CinemaAutomation.Web.csproj|c:\\users\\dell\\desktop\\220709103_\u0130laydademir\\cinemaautomation.web\\cinemaautomation.web\\data\\entities\\showtime.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD4E5000-889E-436E-A93F-0CDA8779A190}|CinemaAutomation.Web\\CinemaAutomation.Web.csproj|solutionrelative:cinemaautomation.web\\data\\entities\\showtime.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD4E5000-889E-436E-A93F-0CDA8779A190}|CinemaAutomation.Web\\CinemaAutomation.Web.csproj|c:\\users\\dell\\desktop\\220709103_\u0130laydademir\\cinemaautomation.web\\cinemaautomation.web\\data\\entities\\seat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD4E5000-889E-436E-A93F-0CDA8779A190}|CinemaAutomation.Web\\CinemaAutomation.Web.csproj|solutionrelative:cinemaautomation.web\\data\\entities\\seat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD4E5000-889E-436E-A93F-0CDA8779A190}|CinemaAutomation.Web\\CinemaAutomation.Web.csproj|c:\\users\\dell\\desktop\\220709103_\u0130laydademir\\cinemaautomation.web\\cinemaautomation.web\\data\\entities\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD4E5000-889E-436E-A93F-0CDA8779A190}|CinemaAutomation.Web\\CinemaAutomation.Web.csproj|solutionrelative:cinemaautomation.web\\data\\entities\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD4E5000-889E-436E-A93F-0CDA8779A190}|CinemaAutomation.Web\\CinemaAutomation.Web.csproj|c:\\users\\dell\\desktop\\220709103_\u0130laydademir\\cinemaautomation.web\\cinemaautomation.web\\data\\entities\\priceresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD4E5000-889E-436E-A93F-0CDA8779A190}|CinemaAutomation.Web\\CinemaAutomation.Web.csproj|solutionrelative:cinemaautomation.web\\data\\entities\\priceresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD4E5000-889E-436E-A93F-0CDA8779A190}|CinemaAutomation.Web\\CinemaAutomation.Web.csproj|c:\\users\\dell\\desktop\\220709103_\u0130laydademir\\cinemaautomation.web\\cinemaautomation.web\\data\\entities\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD4E5000-889E-436E-A93F-0CDA8779A190}|CinemaAutomation.Web\\CinemaAutomation.Web.csproj|solutionrelative:cinemaautomation.web\\data\\entities\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD4E5000-889E-436E-A93F-0CDA8779A190}|CinemaAutomation.Web\\CinemaAutomation.Web.csproj|c:\\users\\dell\\desktop\\220709103_\u0130laydademir\\cinemaautomation.web\\cinemaautomation.web\\data\\entities\\company.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD4E5000-889E-436E-A93F-0CDA8779A190}|CinemaAutomation.Web\\CinemaAutomation.Web.csproj|solutionrelative:cinemaautomation.web\\data\\entities\\company.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD4E5000-889E-436E-A93F-0CDA8779A190}|CinemaAutomation.Web\\CinemaAutomation.Web.csproj|c:\\users\\dell\\desktop\\220709103_\u0130laydademir\\cinemaautomation.web\\cinemaautomation.web\\data\\entities\\bookingseat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD4E5000-889E-436E-A93F-0CDA8779A190}|CinemaAutomation.Web\\CinemaAutomation.Web.csproj|solutionrelative:cinemaautomation.web\\data\\entities\\bookingseat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AdminUsersController.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\220709103_\u0130laydaDemir\\CinemaAutomation.Web\\CinemaAutomation.Web\\Controllers\\AdminUsersController.cs",
+              "RelativeDocumentMoniker": "CinemaAutomation.Web\\Controllers\\AdminUsersController.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\220709103_\u0130laydaDemir\\CinemaAutomation.Web\\CinemaAutomation.Web\\Controllers\\AdminUsersController.cs",
+              "RelativeToolTip": "CinemaAutomation.Web\\Controllers\\AdminUsersController.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAADwvy8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-13T10:38:36.468Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CompanyController.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\220709103_\u0130laydaDemir\\CinemaAutomation.Web\\CinemaAutomation.Web\\Controllers\\CompanyController.cs",
+              "RelativeDocumentMoniker": "CinemaAutomation.Web\\Controllers\\CompanyController.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\220709103_\u0130laydaDemir\\CinemaAutomation.Web\\CinemaAutomation.Web\\Controllers\\CompanyController.cs",
+              "RelativeToolTip": "CinemaAutomation.Web\\Controllers\\CompanyController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-13T12:11:19.516Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CompanyHallsController.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\220709103_\u0130laydaDemir\\CinemaAutomation.Web\\CinemaAutomation.Web\\Controllers\\CompanyHallsController.cs",
+              "RelativeDocumentMoniker": "CinemaAutomation.Web\\Controllers\\CompanyHallsController.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\220709103_\u0130laydaDemir\\CinemaAutomation.Web\\CinemaAutomation.Web\\Controllers\\CompanyHallsController.cs",
+              "RelativeToolTip": "CinemaAutomation.Web\\Controllers\\CompanyHallsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-13T12:13:55.725Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ShowtimesController.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\220709103_\u0130laydaDemir\\CinemaAutomation.Web\\CinemaAutomation.Web\\Controllers\\ShowtimesController.cs",
+              "RelativeDocumentMoniker": "CinemaAutomation.Web\\Controllers\\ShowtimesController.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\220709103_\u0130laydaDemir\\CinemaAutomation.Web\\CinemaAutomation.Web\\Controllers\\ShowtimesController.cs",
+              "RelativeToolTip": "CinemaAutomation.Web\\Controllers\\ShowtimesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAN0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T12:58:05.694Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\220709103_\u0130laydaDemir\\CinemaAutomation.Web\\CinemaAutomation.Web\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "CinemaAutomation.Web\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\220709103_\u0130laydaDemir\\CinemaAutomation.Web\\CinemaAutomation.Web\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "CinemaAutomation.Web\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T16:36:00.14Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\220709103_\u0130laydaDemir\\CinemaAutomation.Web\\CinemaAutomation.Web\\Program.cs",
+              "RelativeDocumentMoniker": "CinemaAutomation.Web\\Program.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\220709103_\u0130laydaDemir\\CinemaAutomation.Web\\CinemaAutomation.Web\\Program.cs",
+              "RelativeToolTip": "CinemaAutomation.Web\\Program.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAArwEQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T16:53:32.106Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\220709103_\u0130laydaDemir\\CinemaAutomation.Web\\CinemaAutomation.Web\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "CinemaAutomation.Web\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\220709103_\u0130laydaDemir\\CinemaAutomation.Web\\CinemaAutomation.Web\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "CinemaAutomation.Web\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T16:57:35.371Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BookingController.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\220709103_\u0130laydaDemir\\CinemaAutomation.Web\\CinemaAutomation.Web\\Controllers\\BookingController.cs",
+              "RelativeDocumentMoniker": "CinemaAutomation.Web\\Controllers\\BookingController.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\220709103_\u0130laydaDemir\\CinemaAutomation.Web\\CinemaAutomation.Web\\Controllers\\BookingController.cs",
+              "RelativeToolTip": "CinemaAutomation.Web\\Controllers\\BookingController.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAkwGABAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T16:09:02.119Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "SnacksController.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\220709103_\u0130laydaDemir\\CinemaAutomation.Web\\CinemaAutomation.Web\\Controllers\\SnacksController.cs",
+              "RelativeDocumentMoniker": "CinemaAutomation.Web\\Controllers\\SnacksController.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\220709103_\u0130laydaDemir\\CinemaAutomation.Web\\CinemaAutomation.Web\\Controllers\\SnacksController.cs",
+              "RelativeToolTip": "CinemaAutomation.Web\\Controllers\\SnacksController.cs",
+              "ViewState": "AgIAAJIAAAAAAAAAAAAwwKsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T10:28:28.508Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ReportsController.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\220709103_\u0130laydaDemir\\CinemaAutomation.Web\\CinemaAutomation.Web\\Controllers\\ReportsController.cs",
+              "RelativeDocumentMoniker": "CinemaAutomation.Web\\Controllers\\ReportsController.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\220709103_\u0130laydaDemir\\CinemaAutomation.Web\\CinemaAutomation.Web\\Controllers\\ReportsController.cs",
+              "RelativeToolTip": "CinemaAutomation.Web\\Controllers\\ReportsController.cs",
+              "ViewState": "AgIAAGwAAAAAAAAAAAAIwIEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T11:10:32.968Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "HallsController.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\220709103_\u0130laydaDemir\\CinemaAutomation.Web\\CinemaAutomation.Web\\Controllers\\HallsController.cs",
+              "RelativeDocumentMoniker": "CinemaAutomation.Web\\Controllers\\HallsController.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\220709103_\u0130laydaDemir\\CinemaAutomation.Web\\CinemaAutomation.Web\\Controllers\\HallsController.cs",
+              "RelativeToolTip": "CinemaAutomation.Web\\Controllers\\HallsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAANsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T12:14:40.868Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CompanyShowtimesController.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\220709103_\u0130laydaDemir\\CinemaAutomation.Web\\CinemaAutomation.Web\\Controllers\\CompanyShowtimesController.cs",
+              "RelativeDocumentMoniker": "CinemaAutomation.Web\\Controllers\\CompanyShowtimesController.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\220709103_\u0130laydaDemir\\CinemaAutomation.Web\\CinemaAutomation.Web\\Controllers\\CompanyShowtimesController.cs",
+              "RelativeToolTip": "CinemaAutomation.Web\\Controllers\\CompanyShowtimesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-13T12:15:16.122Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CompanyReportsController.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\220709103_\u0130laydaDemir\\CinemaAutomation.Web\\CinemaAutomation.Web\\Controllers\\CompanyReportsController.cs",
+              "RelativeDocumentMoniker": "CinemaAutomation.Web\\Controllers\\CompanyReportsController.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\220709103_\u0130laydaDemir\\CinemaAutomation.Web\\CinemaAutomation.Web\\Controllers\\CompanyReportsController.cs",
+              "RelativeToolTip": "CinemaAutomation.Web\\Controllers\\CompanyReportsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-13T12:16:37.244Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\220709103_\u0130laydaDemir\\CinemaAutomation.Web\\CinemaAutomation.Web\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "CinemaAutomation.Web\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\220709103_\u0130laydaDemir\\CinemaAutomation.Web\\CinemaAutomation.Web\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "CinemaAutomation.Web\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T10:31:37.684Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\220709103_\u0130laydaDemir\\CinemaAutomation.Web\\CinemaAutomation.Web\\appsettings.json",
+              "RelativeDocumentMoniker": "CinemaAutomation.Web\\appsettings.json",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\220709103_\u0130laydaDemir\\CinemaAutomation.Web\\CinemaAutomation.Web\\appsettings.json",
+              "RelativeToolTip": "CinemaAutomation.Web\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-05T16:15:51.283Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ListByMovie.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\220709103_\u0130laydaDemir\\CinemaAutomation.Web\\CinemaAutomation.Web\\Views\\Showtimes\\ListByMovie.cshtml",
+              "RelativeDocumentMoniker": "CinemaAutomation.Web\\Views\\Showtimes\\ListByMovie.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\220709103_\u0130laydaDemir\\CinemaAutomation.Web\\CinemaAutomation.Web\\Views\\Showtimes\\ListByMovie.cshtml",
+              "RelativeToolTip": "CinemaAutomation.Web\\Views\\Showtimes\\ListByMovie.cshtml",
+              "ViewState": "AgIAAHgAAAAAAAAAAAAIwJIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-06T13:19:45.551Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\220709103_\u0130laydaDemir\\CinemaAutomation.Web\\CinemaAutomation.Web\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "CinemaAutomation.Web\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\220709103_\u0130laydaDemir\\CinemaAutomation.Web\\CinemaAutomation.Web\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "CinemaAutomation.Web\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE4AAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-05T17:14:45.175Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\220709103_\u0130laydaDemir\\CinemaAutomation.Web\\CinemaAutomation.Web\\Views\\Reports\\Index.cshtml",
+              "RelativeDocumentMoniker": "CinemaAutomation.Web\\Views\\Reports\\Index.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\220709103_\u0130laydaDemir\\CinemaAutomation.Web\\CinemaAutomation.Web\\Views\\Reports\\Index.cshtml",
+              "RelativeToolTip": "CinemaAutomation.Web\\Views\\Reports\\Index.cshtml",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAIwGoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-12T11:22:01.433Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ViewSeats.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\220709103_\u0130laydaDemir\\CinemaAutomation.Web\\CinemaAutomation.Web\\Views\\Halls\\ViewSeats.cshtml",
+              "RelativeDocumentMoniker": "CinemaAutomation.Web\\Views\\Halls\\ViewSeats.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\220709103_\u0130laydaDemir\\CinemaAutomation.Web\\CinemaAutomation.Web\\Views\\Halls\\ViewSeats.cshtml",
+              "RelativeToolTip": "CinemaAutomation.Web\\Views\\Halls\\ViewSeats.cshtml",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAIwG4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-06T12:38:46.783Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\220709103_\u0130laydaDemir\\CinemaAutomation.Web\\CinemaAutomation.Web\\Views\\Movies\\Create.cshtml",
+              "RelativeDocumentMoniker": "CinemaAutomation.Web\\Views\\Movies\\Create.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\220709103_\u0130laydaDemir\\CinemaAutomation.Web\\CinemaAutomation.Web\\Views\\Movies\\Create.cshtml",
+              "RelativeToolTip": "CinemaAutomation.Web\\Views\\Movies\\Create.cshtml",
+              "ViewState": "AgIAAKMAAAAAAAAAAAAIwL0AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-06T11:29:49.982Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\220709103_\u0130laydaDemir\\CinemaAutomation.Web\\CinemaAutomation.Web\\Views\\Halls\\Create.cshtml",
+              "RelativeDocumentMoniker": "CinemaAutomation.Web\\Views\\Halls\\Create.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\220709103_\u0130laydaDemir\\CinemaAutomation.Web\\CinemaAutomation.Web\\Views\\Halls\\Create.cshtml",
+              "RelativeToolTip": "CinemaAutomation.Web\\Views\\Halls\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAK4AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-06T12:31:25.586Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\220709103_\u0130laydaDemir\\CinemaAutomation.Web\\CinemaAutomation.Web\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "CinemaAutomation.Web\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\220709103_\u0130laydaDemir\\CinemaAutomation.Web\\CinemaAutomation.Web\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "CinemaAutomation.Web\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAADkAAAAAAAAAAAAIwFMAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-17T18:29:36.581Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\220709103_\u0130laydaDemir\\CinemaAutomation.Web\\CinemaAutomation.Web\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "CinemaAutomation.Web\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\220709103_\u0130laydaDemir\\CinemaAutomation.Web\\CinemaAutomation.Web\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "CinemaAutomation.Web\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAHoAAAAAAAAAAAAIwJQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-05T16:37:40.248Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\220709103_\u0130laydaDemir\\CinemaAutomation.Web\\CinemaAutomation.Web\\Views\\CompanyShowtimes\\Create.cshtml",
+              "RelativeDocumentMoniker": "CinemaAutomation.Web\\Views\\CompanyShowtimes\\Create.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\220709103_\u0130laydaDemir\\CinemaAutomation.Web\\CinemaAutomation.Web\\Views\\CompanyShowtimes\\Create.cshtml",
+              "RelativeToolTip": "CinemaAutomation.Web\\Views\\CompanyShowtimes\\Create.cshtml",
+              "ViewState": "AgIAAGoAAAAAAAAAAAAIwIQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-13T12:48:21.734Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\220709103_\u0130laydaDemir\\CinemaAutomation.Web\\CinemaAutomation.Web\\Views\\CompanyReports\\Index.cshtml",
+              "RelativeDocumentMoniker": "CinemaAutomation.Web\\Views\\CompanyReports\\Index.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\220709103_\u0130laydaDemir\\CinemaAutomation.Web\\CinemaAutomation.Web\\Views\\CompanyReports\\Index.cshtml",
+              "RelativeToolTip": "CinemaAutomation.Web\\Views\\CompanyReports\\Index.cshtml",
+              "ViewState": "AgIAAMkAAAAAAAAAAAAIwOMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-13T12:17:24.93Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\220709103_\u0130laydaDemir\\CinemaAutomation.Web\\CinemaAutomation.Web\\Views\\CompanyHalls\\Index.cshtml",
+              "RelativeDocumentMoniker": "CinemaAutomation.Web\\Views\\CompanyHalls\\Index.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\220709103_\u0130laydaDemir\\CinemaAutomation.Web\\CinemaAutomation.Web\\Views\\CompanyHalls\\Index.cshtml",
+              "RelativeToolTip": "CinemaAutomation.Web\\Views\\CompanyHalls\\Index.cshtml",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAIwGcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-13T12:14:46.885Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\220709103_\u0130laydaDemir\\CinemaAutomation.Web\\CinemaAutomation.Web\\Views\\Company\\Index.cshtml",
+              "RelativeDocumentMoniker": "CinemaAutomation.Web\\Views\\Company\\Index.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\220709103_\u0130laydaDemir\\CinemaAutomation.Web\\CinemaAutomation.Web\\Views\\Company\\Index.cshtml",
+              "RelativeToolTip": "CinemaAutomation.Web\\Views\\Company\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAG4AAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-13T12:12:31.061Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Success.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\220709103_\u0130laydaDemir\\CinemaAutomation.Web\\CinemaAutomation.Web\\Views\\Booking\\Success.cshtml",
+              "RelativeDocumentMoniker": "CinemaAutomation.Web\\Views\\Booking\\Success.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\220709103_\u0130laydaDemir\\CinemaAutomation.Web\\CinemaAutomation.Web\\Views\\Booking\\Success.cshtml",
+              "RelativeToolTip": "CinemaAutomation.Web\\Views\\Booking\\Success.cshtml",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAIwEcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-07T10:48:08.8Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "SelectSeats.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\220709103_\u0130laydaDemir\\CinemaAutomation.Web\\CinemaAutomation.Web\\Views\\Booking\\SelectSeats.cshtml",
+              "RelativeDocumentMoniker": "CinemaAutomation.Web\\Views\\Booking\\SelectSeats.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\220709103_\u0130laydaDemir\\CinemaAutomation.Web\\CinemaAutomation.Web\\Views\\Booking\\SelectSeats.cshtml",
+              "RelativeToolTip": "CinemaAutomation.Web\\Views\\Booking\\SelectSeats.cshtml",
+              "ViewState": "AgIAAMAAAAAAAAAAAAAIwNoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-06T16:14:52.966Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "MyBookings.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\220709103_\u0130laydaDemir\\CinemaAutomation.Web\\CinemaAutomation.Web\\Views\\Booking\\MyBookings.cshtml",
+              "RelativeDocumentMoniker": "CinemaAutomation.Web\\Views\\Booking\\MyBookings.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\220709103_\u0130laydaDemir\\CinemaAutomation.Web\\CinemaAutomation.Web\\Views\\Booking\\MyBookings.cshtml",
+              "RelativeToolTip": "CinemaAutomation.Web\\Views\\Booking\\MyBookings.cshtml",
+              "ViewState": "AgIAAHYAAAAAAAAAAAAIwJAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-08T15:22:19.412Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Checkout.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\220709103_\u0130laydaDemir\\CinemaAutomation.Web\\CinemaAutomation.Web\\Views\\Booking\\Checkout.cshtml",
+              "RelativeDocumentMoniker": "CinemaAutomation.Web\\Views\\Booking\\Checkout.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\220709103_\u0130laydaDemir\\CinemaAutomation.Web\\CinemaAutomation.Web\\Views\\Booking\\Checkout.cshtml",
+              "RelativeToolTip": "CinemaAutomation.Web\\Views\\Booking\\Checkout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-06T16:16:20.894Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "BookingDetails.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\220709103_\u0130laydaDemir\\CinemaAutomation.Web\\CinemaAutomation.Web\\Views\\Booking\\BookingDetails.cshtml",
+              "RelativeDocumentMoniker": "CinemaAutomation.Web\\Views\\Booking\\BookingDetails.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\220709103_\u0130laydaDemir\\CinemaAutomation.Web\\CinemaAutomation.Web\\Views\\Booking\\BookingDetails.cshtml",
+              "RelativeToolTip": "CinemaAutomation.Web\\Views\\Booking\\BookingDetails.cshtml",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAIwHQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-08T15:23:48.602Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\220709103_\u0130laydaDemir\\CinemaAutomation.Web\\CinemaAutomation.Web\\Views\\AdminUsers\\Index.cshtml",
+              "RelativeDocumentMoniker": "CinemaAutomation.Web\\Views\\AdminUsers\\Index.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\220709103_\u0130laydaDemir\\CinemaAutomation.Web\\CinemaAutomation.Web\\Views\\AdminUsers\\Index.cshtml",
+              "RelativeToolTip": "CinemaAutomation.Web\\Views\\AdminUsers\\Index.cshtml",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAIwGYAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-13T10:39:44.893Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\220709103_\u0130laydaDemir\\CinemaAutomation.Web\\CinemaAutomation.Web\\Views\\Admin\\Index.cshtml",
+              "RelativeDocumentMoniker": "CinemaAutomation.Web\\Views\\Admin\\Index.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\220709103_\u0130laydaDemir\\CinemaAutomation.Web\\CinemaAutomation.Web\\Views\\Admin\\Index.cshtml",
+              "RelativeToolTip": "CinemaAutomation.Web\\Views\\Admin\\Index.cshtml",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAIwHAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-06T11:24:02.926Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\220709103_\u0130laydaDemir\\CinemaAutomation.Web\\CinemaAutomation.Web\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "CinemaAutomation.Web\\Views\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\220709103_\u0130laydaDemir\\CinemaAutomation.Web\\CinemaAutomation.Web\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "CinemaAutomation.Web\\Views\\Account\\Register.cshtml",
+              "ViewState": "AgIAAFsAAAAAAAAAAAAIwHUAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-05T17:08:39.732Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\220709103_\u0130laydaDemir\\CinemaAutomation.Web\\CinemaAutomation.Web\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "CinemaAutomation.Web\\Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\220709103_\u0130laydaDemir\\CinemaAutomation.Web\\CinemaAutomation.Web\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "CinemaAutomation.Web\\Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAIwHEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-05T17:02:20.84Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "SnackCartItemViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\220709103_\u0130laydaDemir\\CinemaAutomation.Web\\CinemaAutomation.Web\\ViewModels\\SnackCartItemViewModel.cs",
+              "RelativeDocumentMoniker": "CinemaAutomation.Web\\ViewModels\\SnackCartItemViewModel.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\220709103_\u0130laydaDemir\\CinemaAutomation.Web\\CinemaAutomation.Web\\ViewModels\\SnackCartItemViewModel.cs",
+              "RelativeToolTip": "CinemaAutomation.Web\\ViewModels\\SnackCartItemViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T11:43:32.366Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "CheckoutViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\220709103_\u0130laydaDemir\\CinemaAutomation.Web\\CinemaAutomation.Web\\ViewModels\\CheckoutViewModel.cs",
+              "RelativeDocumentMoniker": "CinemaAutomation.Web\\ViewModels\\CheckoutViewModel.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\220709103_\u0130laydaDemir\\CinemaAutomation.Web\\CinemaAutomation.Web\\ViewModels\\CheckoutViewModel.cs",
+              "RelativeToolTip": "CinemaAutomation.Web\\ViewModels\\CheckoutViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-07T10:45:11.848Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "BookingHistoryViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\220709103_\u0130laydaDemir\\CinemaAutomation.Web\\CinemaAutomation.Web\\ViewModels\\BookingHistoryViewModel.cs",
+              "RelativeDocumentMoniker": "CinemaAutomation.Web\\ViewModels\\BookingHistoryViewModel.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\220709103_\u0130laydaDemir\\CinemaAutomation.Web\\CinemaAutomation.Web\\ViewModels\\BookingHistoryViewModel.cs",
+              "RelativeToolTip": "CinemaAutomation.Web\\ViewModels\\BookingHistoryViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T15:26:50.505Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "BookingDetailsViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\220709103_\u0130laydaDemir\\CinemaAutomation.Web\\CinemaAutomation.Web\\ViewModels\\BookingDetailsViewModel.cs",
+              "RelativeDocumentMoniker": "CinemaAutomation.Web\\ViewModels\\BookingDetailsViewModel.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\220709103_\u0130laydaDemir\\CinemaAutomation.Web\\CinemaAutomation.Web\\ViewModels\\BookingDetailsViewModel.cs",
+              "RelativeToolTip": "CinemaAutomation.Web\\ViewModels\\BookingDetailsViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T15:30:12.368Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "SnackSalesVM.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\220709103_\u0130laydaDemir\\CinemaAutomation.Web\\CinemaAutomation.Web\\ViewModels\\Reports\\SnackSalesVM.cs",
+              "RelativeDocumentMoniker": "CinemaAutomation.Web\\ViewModels\\Reports\\SnackSalesVM.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\220709103_\u0130laydaDemir\\CinemaAutomation.Web\\CinemaAutomation.Web\\ViewModels\\Reports\\SnackSalesVM.cs",
+              "RelativeToolTip": "CinemaAutomation.Web\\ViewModels\\Reports\\SnackSalesVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T12:22:41.181Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "ReportsDashboardVM.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\220709103_\u0130laydaDemir\\CinemaAutomation.Web\\CinemaAutomation.Web\\ViewModels\\Reports\\ReportsDashboardVM.cs",
+              "RelativeDocumentMoniker": "CinemaAutomation.Web\\ViewModels\\Reports\\ReportsDashboardVM.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\220709103_\u0130laydaDemir\\CinemaAutomation.Web\\CinemaAutomation.Web\\ViewModels\\Reports\\ReportsDashboardVM.cs",
+              "RelativeToolTip": "CinemaAutomation.Web\\ViewModels\\Reports\\ReportsDashboardVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T12:27:28.793Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "MovieRevenueVM.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\220709103_\u0130laydaDemir\\CinemaAutomation.Web\\CinemaAutomation.Web\\ViewModels\\Reports\\MovieRevenueVM.cs",
+              "RelativeDocumentMoniker": "CinemaAutomation.Web\\ViewModels\\Reports\\MovieRevenueVM.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\220709103_\u0130laydaDemir\\CinemaAutomation.Web\\CinemaAutomation.Web\\ViewModels\\Reports\\MovieRevenueVM.cs",
+              "RelativeToolTip": "CinemaAutomation.Web\\ViewModels\\Reports\\MovieRevenueVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T12:22:13.343Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "HallOccupancyVM.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\220709103_\u0130laydaDemir\\CinemaAutomation.Web\\CinemaAutomation.Web\\ViewModels\\Reports\\HallOccupancyVM.cs",
+              "RelativeDocumentMoniker": "CinemaAutomation.Web\\ViewModels\\Reports\\HallOccupancyVM.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\220709103_\u0130laydaDemir\\CinemaAutomation.Web\\CinemaAutomation.Web\\ViewModels\\Reports\\HallOccupancyVM.cs",
+              "RelativeToolTip": "CinemaAutomation.Web\\ViewModels\\Reports\\HallOccupancyVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T12:26:51.04Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "DailySalesVM.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\220709103_\u0130laydaDemir\\CinemaAutomation.Web\\CinemaAutomation.Web\\ViewModels\\Reports\\DailySalesVM.cs",
+              "RelativeDocumentMoniker": "CinemaAutomation.Web\\ViewModels\\Reports\\DailySalesVM.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\220709103_\u0130laydaDemir\\CinemaAutomation.Web\\CinemaAutomation.Web\\ViewModels\\Reports\\DailySalesVM.cs",
+              "RelativeToolTip": "CinemaAutomation.Web\\ViewModels\\Reports\\DailySalesVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T12:21:47.685Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "SessionExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\220709103_\u0130laydaDemir\\CinemaAutomation.Web\\CinemaAutomation.Web\\Extensions\\SessionExtensions.cs",
+              "RelativeDocumentMoniker": "CinemaAutomation.Web\\Extensions\\SessionExtensions.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\220709103_\u0130laydaDemir\\CinemaAutomation.Web\\CinemaAutomation.Web\\Extensions\\SessionExtensions.cs",
+              "RelativeToolTip": "CinemaAutomation.Web\\Extensions\\SessionExtensions.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAswBcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T11:42:23.132Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "CinemaDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\220709103_\u0130laydaDemir\\CinemaAutomation.Web\\CinemaAutomation.Web\\Data\\CinemaDbContext.cs",
+              "RelativeDocumentMoniker": "CinemaAutomation.Web\\Data\\CinemaDbContext.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\220709103_\u0130laydaDemir\\CinemaAutomation.Web\\CinemaAutomation.Web\\Data\\CinemaDbContext.cs",
+              "RelativeToolTip": "CinemaAutomation.Web\\Data\\CinemaDbContext.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAIwEsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T16:31:40.305Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "Booking.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\220709103_\u0130laydaDemir\\CinemaAutomation.Web\\CinemaAutomation.Web\\Data\\Entities\\Booking.cs",
+              "RelativeDocumentMoniker": "CinemaAutomation.Web\\Data\\Entities\\Booking.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\220709103_\u0130laydaDemir\\CinemaAutomation.Web\\CinemaAutomation.Web\\Data\\Entities\\Booking.cs",
+              "RelativeToolTip": "CinemaAutomation.Web\\Data\\Entities\\Booking.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T16:27:22.771Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "AuditLog.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\220709103_\u0130laydaDemir\\CinemaAutomation.Web\\CinemaAutomation.Web\\Data\\Entities\\AuditLog.cs",
+              "RelativeDocumentMoniker": "CinemaAutomation.Web\\Data\\Entities\\AuditLog.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\220709103_\u0130laydaDemir\\CinemaAutomation.Web\\CinemaAutomation.Web\\Data\\Entities\\AuditLog.cs",
+              "RelativeToolTip": "CinemaAutomation.Web\\Data\\Entities\\AuditLog.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T16:30:51.627Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "SnackShopController.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\220709103_\u0130laydaDemir\\CinemaAutomation.Web\\CinemaAutomation.Web\\Controllers\\SnackShopController.cs",
+              "RelativeDocumentMoniker": "CinemaAutomation.Web\\Controllers\\SnackShopController.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\220709103_\u0130laydaDemir\\CinemaAutomation.Web\\CinemaAutomation.Web\\Controllers\\SnackShopController.cs",
+              "RelativeToolTip": "CinemaAutomation.Web\\Controllers\\SnackShopController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADYBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T11:44:03.263Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "MoviesController.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\220709103_\u0130laydaDemir\\CinemaAutomation.Web\\CinemaAutomation.Web\\Controllers\\MoviesController.cs",
+              "RelativeDocumentMoniker": "CinemaAutomation.Web\\Controllers\\MoviesController.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\220709103_\u0130laydaDemir\\CinemaAutomation.Web\\CinemaAutomation.Web\\Controllers\\MoviesController.cs",
+              "RelativeToolTip": "CinemaAutomation.Web\\Controllers\\MoviesController.cs",
+              "ViewState": "AgIAAJgAAAAAAAAAAAAAALAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T11:27:34.767Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "Hall.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\220709103_\u0130laydaDemir\\CinemaAutomation.Web\\CinemaAutomation.Web\\Data\\Entities\\Hall.cs",
+              "RelativeDocumentMoniker": "CinemaAutomation.Web\\Data\\Entities\\Hall.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\220709103_\u0130laydaDemir\\CinemaAutomation.Web\\CinemaAutomation.Web\\Data\\Entities\\Hall.cs",
+              "RelativeToolTip": "CinemaAutomation.Web\\Data\\Entities\\Hall.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T16:24:12.794Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\220709103_\u0130laydaDemir\\CinemaAutomation.Web\\CinemaAutomation.Web\\Views\\SnackShop\\Index.cshtml",
+              "RelativeDocumentMoniker": "CinemaAutomation.Web\\Views\\SnackShop\\Index.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\220709103_\u0130laydaDemir\\CinemaAutomation.Web\\CinemaAutomation.Web\\Views\\SnackShop\\Index.cshtml",
+              "RelativeToolTip": "CinemaAutomation.Web\\Views\\SnackShop\\Index.cshtml",
+              "ViewState": "AgIAAKIAAAAAAAAAAAAAALMAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-08T11:45:13.663Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "OrderDetails.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\220709103_\u0130laydaDemir\\CinemaAutomation.Web\\CinemaAutomation.Web\\Views\\SnackShop\\OrderDetails.cshtml",
+              "RelativeDocumentMoniker": "CinemaAutomation.Web\\Views\\SnackShop\\OrderDetails.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\220709103_\u0130laydaDemir\\CinemaAutomation.Web\\CinemaAutomation.Web\\Views\\SnackShop\\OrderDetails.cshtml",
+              "RelativeToolTip": "CinemaAutomation.Web\\Views\\SnackShop\\OrderDetails.cshtml",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAAAGgAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-08T15:16:05.153Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\220709103_\u0130laydaDemir\\CinemaAutomation.Web\\CinemaAutomation.Web\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "CinemaAutomation.Web\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\220709103_\u0130laydaDemir\\CinemaAutomation.Web\\CinemaAutomation.Web\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "CinemaAutomation.Web\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-05T17:10:26.179Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "Orders.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\220709103_\u0130laydaDemir\\CinemaAutomation.Web\\CinemaAutomation.Web\\Views\\SnackShop\\Orders.cshtml",
+              "RelativeDocumentMoniker": "CinemaAutomation.Web\\Views\\SnackShop\\Orders.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\220709103_\u0130laydaDemir\\CinemaAutomation.Web\\CinemaAutomation.Web\\Views\\SnackShop\\Orders.cshtml",
+              "RelativeToolTip": "CinemaAutomation.Web\\Views\\SnackShop\\Orders.cshtml",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAAGAAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-08T15:14:45.445Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "Cart.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\220709103_\u0130laydaDemir\\CinemaAutomation.Web\\CinemaAutomation.Web\\Views\\SnackShop\\Cart.cshtml",
+              "RelativeDocumentMoniker": "CinemaAutomation.Web\\Views\\SnackShop\\Cart.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\220709103_\u0130laydaDemir\\CinemaAutomation.Web\\CinemaAutomation.Web\\Views\\SnackShop\\Cart.cshtml",
+              "RelativeToolTip": "CinemaAutomation.Web\\Views\\SnackShop\\Cart.cshtml",
+              "ViewState": "AgIAAK4AAAAAAAAAAAAAALsAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-08T11:45:47.909Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\220709103_\u0130laydaDemir\\CinemaAutomation.Web\\CinemaAutomation.Web\\Views\\Snacks\\Index.cshtml",
+              "RelativeDocumentMoniker": "CinemaAutomation.Web\\Views\\Snacks\\Index.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\220709103_\u0130laydaDemir\\CinemaAutomation.Web\\CinemaAutomation.Web\\Views\\Snacks\\Index.cshtml",
+              "RelativeToolTip": "CinemaAutomation.Web\\Views\\Snacks\\Index.cshtml",
+              "ViewState": "AgIAAM8AAAAAAAAAAAAAAM4AAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-17T19:53:39.216Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\220709103_\u0130laydaDemir\\CinemaAutomation.Web\\CinemaAutomation.Web\\Views\\Snacks\\Edit.cshtml",
+              "RelativeDocumentMoniker": "CinemaAutomation.Web\\Views\\Snacks\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\220709103_\u0130laydaDemir\\CinemaAutomation.Web\\CinemaAutomation.Web\\Views\\Snacks\\Edit.cshtml",
+              "RelativeToolTip": "CinemaAutomation.Web\\Views\\Snacks\\Edit.cshtml",
+              "ViewState": "AgIAAIcAAAAAAAAAAAAAAJUAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-17T19:49:20.481Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\220709103_\u0130laydaDemir\\CinemaAutomation.Web\\CinemaAutomation.Web\\Views\\Snacks\\Details.cshtml",
+              "RelativeDocumentMoniker": "CinemaAutomation.Web\\Views\\Snacks\\Details.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\220709103_\u0130laydaDemir\\CinemaAutomation.Web\\CinemaAutomation.Web\\Views\\Snacks\\Details.cshtml",
+              "RelativeToolTip": "CinemaAutomation.Web\\Views\\Snacks\\Details.cshtml",
+              "ViewState": "AgIAAJMAAAAAAAAAAAAAAKIAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-17T19:47:39.843Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\220709103_\u0130laydaDemir\\CinemaAutomation.Web\\CinemaAutomation.Web\\Views\\Snacks\\Delete.cshtml",
+              "RelativeDocumentMoniker": "CinemaAutomation.Web\\Views\\Snacks\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\220709103_\u0130laydaDemir\\CinemaAutomation.Web\\CinemaAutomation.Web\\Views\\Snacks\\Delete.cshtml",
+              "RelativeToolTip": "CinemaAutomation.Web\\Views\\Snacks\\Delete.cshtml",
+              "ViewState": "AgIAAGAAAAAAAAAAAAAAAI8AAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-17T19:45:31.742Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\220709103_\u0130laydaDemir\\CinemaAutomation.Web\\CinemaAutomation.Web\\Views\\Snacks\\Create.cshtml",
+              "RelativeDocumentMoniker": "CinemaAutomation.Web\\Views\\Snacks\\Create.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\220709103_\u0130laydaDemir\\CinemaAutomation.Web\\CinemaAutomation.Web\\Views\\Snacks\\Create.cshtml",
+              "RelativeToolTip": "CinemaAutomation.Web\\Views\\Snacks\\Create.cshtml",
+              "ViewState": "AgIAAIQAAAAAAAAAAAAAAJMAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-17T19:43:19.253Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\220709103_\u0130laydaDemir\\CinemaAutomation.Web\\CinemaAutomation.Web\\Views\\Showtimes\\Index.cshtml",
+              "RelativeDocumentMoniker": "CinemaAutomation.Web\\Views\\Showtimes\\Index.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\220709103_\u0130laydaDemir\\CinemaAutomation.Web\\CinemaAutomation.Web\\Views\\Showtimes\\Index.cshtml",
+              "RelativeToolTip": "CinemaAutomation.Web\\Views\\Showtimes\\Index.cshtml",
+              "ViewState": "AgIAAIEAAAAAAAAAAAAAAKgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-13T11:23:10.84Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\220709103_\u0130laydaDemir\\CinemaAutomation.Web\\CinemaAutomation.Web\\Views\\Showtimes\\Edit.cshtml",
+              "RelativeDocumentMoniker": "CinemaAutomation.Web\\Views\\Showtimes\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\220709103_\u0130laydaDemir\\CinemaAutomation.Web\\CinemaAutomation.Web\\Views\\Showtimes\\Edit.cshtml",
+              "RelativeToolTip": "CinemaAutomation.Web\\Views\\Showtimes\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAL8AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-17T19:36:22.881Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\220709103_\u0130laydaDemir\\CinemaAutomation.Web\\CinemaAutomation.Web\\Views\\Showtimes\\Details.cshtml",
+              "RelativeDocumentMoniker": "CinemaAutomation.Web\\Views\\Showtimes\\Details.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\220709103_\u0130laydaDemir\\CinemaAutomation.Web\\CinemaAutomation.Web\\Views\\Showtimes\\Details.cshtml",
+              "RelativeToolTip": "CinemaAutomation.Web\\Views\\Showtimes\\Details.cshtml",
+              "ViewState": "AgIAAJMAAAAAAAAAAAAAAK4AAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-17T19:33:29.828Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\220709103_\u0130laydaDemir\\CinemaAutomation.Web\\CinemaAutomation.Web\\Views\\Showtimes\\Delete.cshtml",
+              "RelativeDocumentMoniker": "CinemaAutomation.Web\\Views\\Showtimes\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\220709103_\u0130laydaDemir\\CinemaAutomation.Web\\CinemaAutomation.Web\\Views\\Showtimes\\Delete.cshtml",
+              "RelativeToolTip": "CinemaAutomation.Web\\Views\\Showtimes\\Delete.cshtml",
+              "ViewState": "AgIAAJAAAAAAAAAAAAAAAKUAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-17T19:31:22.107Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\220709103_\u0130laydaDemir\\CinemaAutomation.Web\\CinemaAutomation.Web\\Views\\Showtimes\\Create.cshtml",
+              "RelativeDocumentMoniker": "CinemaAutomation.Web\\Views\\Showtimes\\Create.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\220709103_\u0130laydaDemir\\CinemaAutomation.Web\\CinemaAutomation.Web\\Views\\Showtimes\\Create.cshtml",
+              "RelativeToolTip": "CinemaAutomation.Web\\Views\\Showtimes\\Create.cshtml",
+              "ViewState": "AgIAAHsAAAAAAAAAAAAAAI0AAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-06T13:02:35.19Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\220709103_\u0130laydaDemir\\CinemaAutomation.Web\\CinemaAutomation.Web\\Views\\Movies\\Index.cshtml",
+              "RelativeDocumentMoniker": "CinemaAutomation.Web\\Views\\Movies\\Index.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\220709103_\u0130laydaDemir\\CinemaAutomation.Web\\CinemaAutomation.Web\\Views\\Movies\\Index.cshtml",
+              "RelativeToolTip": "CinemaAutomation.Web\\Views\\Movies\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAOEAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-06T11:41:19.936Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\220709103_\u0130laydaDemir\\CinemaAutomation.Web\\CinemaAutomation.Web\\Views\\Movies\\Edit.cshtml",
+              "RelativeDocumentMoniker": "CinemaAutomation.Web\\Views\\Movies\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\220709103_\u0130laydaDemir\\CinemaAutomation.Web\\CinemaAutomation.Web\\Views\\Movies\\Edit.cshtml",
+              "RelativeToolTip": "CinemaAutomation.Web\\Views\\Movies\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAALsAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-14T16:08:00.581Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\220709103_\u0130laydaDemir\\CinemaAutomation.Web\\CinemaAutomation.Web\\Views\\Movies\\Details.cshtml",
+              "RelativeDocumentMoniker": "CinemaAutomation.Web\\Views\\Movies\\Details.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\220709103_\u0130laydaDemir\\CinemaAutomation.Web\\CinemaAutomation.Web\\Views\\Movies\\Details.cshtml",
+              "RelativeToolTip": "CinemaAutomation.Web\\Views\\Movies\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJsAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-17T18:39:20.889Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\220709103_\u0130laydaDemir\\CinemaAutomation.Web\\CinemaAutomation.Web\\Views\\Movies\\Delete.cshtml",
+              "RelativeDocumentMoniker": "CinemaAutomation.Web\\Views\\Movies\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\220709103_\u0130laydaDemir\\CinemaAutomation.Web\\CinemaAutomation.Web\\Views\\Movies\\Delete.cshtml",
+              "RelativeToolTip": "CinemaAutomation.Web\\Views\\Movies\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJcAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-17T18:37:02.374Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\220709103_\u0130laydaDemir\\CinemaAutomation.Web\\CinemaAutomation.Web\\Views\\Halls\\Index.cshtml",
+              "RelativeDocumentMoniker": "CinemaAutomation.Web\\Views\\Halls\\Index.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\220709103_\u0130laydaDemir\\CinemaAutomation.Web\\CinemaAutomation.Web\\Views\\Halls\\Index.cshtml",
+              "RelativeToolTip": "CinemaAutomation.Web\\Views\\Halls\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAALIAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-06T12:38:07.158Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\220709103_\u0130laydaDemir\\CinemaAutomation.Web\\CinemaAutomation.Web\\Views\\Halls\\Edit.cshtml",
+              "RelativeDocumentMoniker": "CinemaAutomation.Web\\Views\\Halls\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\220709103_\u0130laydaDemir\\CinemaAutomation.Web\\CinemaAutomation.Web\\Views\\Halls\\Edit.cshtml",
+              "RelativeToolTip": "CinemaAutomation.Web\\Views\\Halls\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAALQAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-17T18:14:33.393Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\220709103_\u0130laydaDemir\\CinemaAutomation.Web\\CinemaAutomation.Web\\Views\\Halls\\Details.cshtml",
+              "RelativeDocumentMoniker": "CinemaAutomation.Web\\Views\\Halls\\Details.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\220709103_\u0130laydaDemir\\CinemaAutomation.Web\\CinemaAutomation.Web\\Views\\Halls\\Details.cshtml",
+              "RelativeToolTip": "CinemaAutomation.Web\\Views\\Halls\\Details.cshtml",
+              "ViewState": "AgIAAHgAAAAAAAAAAAAAAKYAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-17T18:11:44.163Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 74,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\220709103_\u0130laydaDemir\\CinemaAutomation.Web\\CinemaAutomation.Web\\Views\\Halls\\Delete.cshtml",
+              "RelativeDocumentMoniker": "CinemaAutomation.Web\\Views\\Halls\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\220709103_\u0130laydaDemir\\CinemaAutomation.Web\\CinemaAutomation.Web\\Views\\Halls\\Delete.cshtml",
+              "RelativeToolTip": "CinemaAutomation.Web\\Views\\Halls\\Delete.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAKcAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-17T18:08:49.533Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 75,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\220709103_\u0130laydaDemir\\CinemaAutomation.Web\\CinemaAutomation.Web\\Views\\CompanyShowtimes\\Index.cshtml",
+              "RelativeDocumentMoniker": "CinemaAutomation.Web\\Views\\CompanyShowtimes\\Index.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\220709103_\u0130laydaDemir\\CinemaAutomation.Web\\CinemaAutomation.Web\\Views\\CompanyShowtimes\\Index.cshtml",
+              "RelativeToolTip": "CinemaAutomation.Web\\Views\\CompanyShowtimes\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAALYAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-13T12:16:04.34Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 76,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\220709103_\u0130laydaDemir\\CinemaAutomation.Web\\CinemaAutomation.Web\\Views\\CompanyShowtimes\\Edit.cshtml",
+              "RelativeDocumentMoniker": "CinemaAutomation.Web\\Views\\CompanyShowtimes\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\220709103_\u0130laydaDemir\\CinemaAutomation.Web\\CinemaAutomation.Web\\Views\\CompanyShowtimes\\Edit.cshtml",
+              "RelativeToolTip": "CinemaAutomation.Web\\Views\\CompanyShowtimes\\Edit.cshtml",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAAAIwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-13T12:48:43.182Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 77,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\220709103_\u0130laydaDemir\\CinemaAutomation.Web\\CinemaAutomation.Web\\Data\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "CinemaAutomation.Web\\Data\\Entities\\User.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\220709103_\u0130laydaDemir\\CinemaAutomation.Web\\CinemaAutomation.Web\\Data\\Entities\\User.cs",
+              "RelativeToolTip": "CinemaAutomation.Web\\Data\\Entities\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T16:23:02.241Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 78,
+              "Title": "SnackOrderItem.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\220709103_\u0130laydaDemir\\CinemaAutomation.Web\\CinemaAutomation.Web\\Data\\Entities\\SnackOrderItem.cs",
+              "RelativeDocumentMoniker": "CinemaAutomation.Web\\Data\\Entities\\SnackOrderItem.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\220709103_\u0130laydaDemir\\CinemaAutomation.Web\\CinemaAutomation.Web\\Data\\Entities\\SnackOrderItem.cs",
+              "RelativeToolTip": "CinemaAutomation.Web\\Data\\Entities\\SnackOrderItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T16:30:08.608Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 79,
+              "Title": "SnackOrder.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\220709103_\u0130laydaDemir\\CinemaAutomation.Web\\CinemaAutomation.Web\\Data\\Entities\\SnackOrder.cs",
+              "RelativeDocumentMoniker": "CinemaAutomation.Web\\Data\\Entities\\SnackOrder.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\220709103_\u0130laydaDemir\\CinemaAutomation.Web\\CinemaAutomation.Web\\Data\\Entities\\SnackOrder.cs",
+              "RelativeToolTip": "CinemaAutomation.Web\\Data\\Entities\\SnackOrder.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T16:29:24.043Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 80,
+              "Title": "Snack.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\220709103_\u0130laydaDemir\\CinemaAutomation.Web\\CinemaAutomation.Web\\Data\\Entities\\Snack.cs",
+              "RelativeDocumentMoniker": "CinemaAutomation.Web\\Data\\Entities\\Snack.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\220709103_\u0130laydaDemir\\CinemaAutomation.Web\\CinemaAutomation.Web\\Data\\Entities\\Snack.cs",
+              "RelativeToolTip": "CinemaAutomation.Web\\Data\\Entities\\Snack.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T16:28:50.326Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 81,
+              "Title": "ShowtimeSeat.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\220709103_\u0130laydaDemir\\CinemaAutomation.Web\\CinemaAutomation.Web\\Data\\Entities\\ShowtimeSeat.cs",
+              "RelativeDocumentMoniker": "CinemaAutomation.Web\\Data\\Entities\\ShowtimeSeat.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\220709103_\u0130laydaDemir\\CinemaAutomation.Web\\CinemaAutomation.Web\\Data\\Entities\\ShowtimeSeat.cs",
+              "RelativeToolTip": "CinemaAutomation.Web\\Data\\Entities\\ShowtimeSeat.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T16:26:49.765Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 82,
+              "Title": "Showtime.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\220709103_\u0130laydaDemir\\CinemaAutomation.Web\\CinemaAutomation.Web\\Data\\Entities\\Showtime.cs",
+              "RelativeDocumentMoniker": "CinemaAutomation.Web\\Data\\Entities\\Showtime.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\220709103_\u0130laydaDemir\\CinemaAutomation.Web\\CinemaAutomation.Web\\Data\\Entities\\Showtime.cs",
+              "RelativeToolTip": "CinemaAutomation.Web\\Data\\Entities\\Showtime.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T16:26:14.992Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 83,
+              "Title": "Seat.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\220709103_\u0130laydaDemir\\CinemaAutomation.Web\\CinemaAutomation.Web\\Data\\Entities\\Seat.cs",
+              "RelativeDocumentMoniker": "CinemaAutomation.Web\\Data\\Entities\\Seat.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\220709103_\u0130laydaDemir\\CinemaAutomation.Web\\CinemaAutomation.Web\\Data\\Entities\\Seat.cs",
+              "RelativeToolTip": "CinemaAutomation.Web\\Data\\Entities\\Seat.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T16:24:45.113Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 84,
+              "Title": "Role.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\220709103_\u0130laydaDemir\\CinemaAutomation.Web\\CinemaAutomation.Web\\Data\\Entities\\Role.cs",
+              "RelativeDocumentMoniker": "CinemaAutomation.Web\\Data\\Entities\\Role.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\220709103_\u0130laydaDemir\\CinemaAutomation.Web\\CinemaAutomation.Web\\Data\\Entities\\Role.cs",
+              "RelativeToolTip": "CinemaAutomation.Web\\Data\\Entities\\Role.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T16:22:26.185Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 85,
+              "Title": "PriceResult.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\220709103_\u0130laydaDemir\\CinemaAutomation.Web\\CinemaAutomation.Web\\Data\\Entities\\PriceResult.cs",
+              "RelativeDocumentMoniker": "CinemaAutomation.Web\\Data\\Entities\\PriceResult.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\220709103_\u0130laydaDemir\\CinemaAutomation.Web\\CinemaAutomation.Web\\Data\\Entities\\PriceResult.cs",
+              "RelativeToolTip": "CinemaAutomation.Web\\Data\\Entities\\PriceResult.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T16:36:56.703Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 86,
+              "Title": "Movie.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\220709103_\u0130laydaDemir\\CinemaAutomation.Web\\CinemaAutomation.Web\\Data\\Entities\\Movie.cs",
+              "RelativeDocumentMoniker": "CinemaAutomation.Web\\Data\\Entities\\Movie.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\220709103_\u0130laydaDemir\\CinemaAutomation.Web\\CinemaAutomation.Web\\Data\\Entities\\Movie.cs",
+              "RelativeToolTip": "CinemaAutomation.Web\\Data\\Entities\\Movie.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T16:25:36.383Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 87,
+              "Title": "Company.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\220709103_\u0130laydaDemir\\CinemaAutomation.Web\\CinemaAutomation.Web\\Data\\Entities\\Company.cs",
+              "RelativeDocumentMoniker": "CinemaAutomation.Web\\Data\\Entities\\Company.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\220709103_\u0130laydaDemir\\CinemaAutomation.Web\\CinemaAutomation.Web\\Data\\Entities\\Company.cs",
+              "RelativeToolTip": "CinemaAutomation.Web\\Data\\Entities\\Company.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T16:23:39.907Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 88,
+              "Title": "BookingSeat.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\220709103_\u0130laydaDemir\\CinemaAutomation.Web\\CinemaAutomation.Web\\Data\\Entities\\BookingSeat.cs",
+              "RelativeDocumentMoniker": "CinemaAutomation.Web\\Data\\Entities\\BookingSeat.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\220709103_\u0130laydaDemir\\CinemaAutomation.Web\\CinemaAutomation.Web\\Data\\Entities\\BookingSeat.cs",
+              "RelativeToolTip": "CinemaAutomation.Web\\Data\\Entities\\BookingSeat.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T16:28:18.075Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

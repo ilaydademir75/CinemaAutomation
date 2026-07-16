@@ -1,0 +1,209 @@
+﻿@model CinemaAutomation.Web.ViewModels.Reports.ReportsDashboardVM
+@* View model containing aggregated report data *@
+
+<style>
+    .page-title {
+        font-weight: 900;
+        color: #111827;
+        margin-bottom: 12px;
+        letter-spacing: 0.4px;
+    }
+
+    .filter-bar {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        margin-bottom: 24px;
+    }
+
+        .filter-bar input[type="date"] {
+            border-radius: 14px;
+            padding: 8px 12px;
+            border: 1px solid #d1d5db;
+        }
+
+    .filter-btn {
+        border-radius: 14px;
+        padding: 8px 20px;
+        font-weight: 700;
+        background: linear-gradient(135deg, #6366f1, #4f46e5);
+        color: #fff;
+        border: none;
+        transition: all 0.25s ease;
+    }
+
+        .filter-btn:hover {
+            background: linear-gradient(135deg, #4f46e5, #4338ca);
+            transform: translateY(-2px);
+            box-shadow: 0 10px 24px rgba(79, 70, 229, 0.45);
+        }
+
+    .stat-card {
+        border-radius: 22px;
+        padding: 20px;
+        box-shadow: 0 14px 36px rgba(0,0,0,0.14);
+        transition: transform 0.2s ease;
+    }
+
+        .stat-card:hover {
+            transform: translateY(-4px);
+        }
+
+    .stat-title {
+        font-size: 0.85rem;
+        font-weight: 700;
+        opacity: 0.9;
+    }
+
+    .stat-value {
+        font-size: 1.4rem;
+        font-weight: 900;
+        margin-top: 6px;
+    }
+
+    .table-card {
+        background: #ffffff;
+        border-radius: 22px;
+        padding: 24px;
+        box-shadow: 0 16px 40px rgba(0,0,0,0.14);
+        margin-top: 18px;
+    }
+
+    thead th {
+        background: #111827 !important;
+        color: #ffffff;
+        font-weight: 800;
+        text-align: center;
+        padding: 14px;
+        border-bottom: none;
+    }
+
+    tbody td {
+        text-align: center;
+        padding: 14px;
+        vertical-align: middle;
+    }
+
+    tbody tr:hover {
+        background-color: #f9fafb;
+    }
+
+    .occ-badge {
+        border-radius: 14px;
+        padding: 6px 14px;
+        font-weight: 800;
+        font-size: 0.8rem;
+    }
+
+    .occ-low {
+        background-color: #dcfce7;
+        color: #166534;
+    }
+
+    .occ-mid {
+        background-color: #fef3c7;
+        color: #92400e;
+    }
+
+    .occ-high {
+        background-color: #fee2e2;
+        color: #991b1b;
+    }
+</style>
+
+<h2 class="page-title">Reports Dashboard</h2>
+
+<form method="get" class="filter-bar">
+    @* Sends selected date as query string for filtering reports *@
+    <input type="date"
+           name="date"
+           value="@Model.DailySales.Date.ToString("yyyy-MM-dd")" />
+    <button class="filter-btn">Apply</button>
+</form>
+
+<div class="row">
+
+    <div class="col-md-3">
+        <div class="stat-card text-white"
+             style="background:linear-gradient(135deg,#22c55e,#16a34a)">
+            <div class="stat-title">Ticket Revenue</div>
+            <div class="stat-value">@Model.DailySales.TicketRevenue ₺</div>
+            @* Displays total ticket revenue for selected day *@
+        </div>
+    </div>
+
+    <div class="col-md-3">
+        <div class="stat-card"
+             style="background:linear-gradient(135deg,#fde68a,#f59e0b)">
+            <div class="stat-title">Snack Revenue</div>
+            <div class="stat-value">@Model.SnackSales.TotalRevenue ₺</div>
+            @* Displays total snack/buffet revenue *@
+        </div>
+    </div>
+
+    <div class="col-md-3">
+        <div class="stat-card text-white"
+             style="background:linear-gradient(135deg,#38bdf8,#0ea5e9)">
+            <div class="stat-title">Total Revenue</div>
+            <div class="stat-value">@Model.DailySales.TotalRevenue ₺</div>
+            @* Displays combined ticket + snack revenue *@
+        </div>
+    </div>
+
+    <div class="col-md-3">
+        <div class="stat-card text-white"
+             style="background:linear-gradient(135deg,#1f2937,#111827)">
+            <div class="stat-title">Avg. Hall Occupancy</div>
+            <div class="stat-value">
+                @(
+                    Model.HallOccupancies.Any()
+                    ? Math.Round(Model.HallOccupancies.Average(x => x.OccupancyRate), 2)
+                    : 0
+                    ) %
+            </div>
+            @* Calculates average occupancy rate across all halls *@
+        </div>
+    </div>
+</div>
+
+<div class="table-card">
+    <h4 class="mb-3">Hall Occupancy Details</h4>
+
+    <table class="table table-bordered table-hover mb-0">
+        <thead>
+            <tr>
+                <th>Hall</th>
+                <th>Sold Seats</th>
+                <th>Total Seats</th>
+                <th>Occupancy</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var hall in Model.HallOccupancies)
+            {
+                var rate = hall.OccupancyRate;
+                @* Occupancy percentage for current hall *@
+
+                <tr>
+                    <td>@hall.HallName</td>
+                    <td>@hall.SoldSeats</td>
+                    <td>@hall.TotalSeats</td>
+                    <td>
+                        <span class="occ-badge
+                        @(rate < 40 ? "occ-low" :
+                          rate < 70 ? "occ-mid" :
+                                      "occ-high")">
+                            @rate %
+                        </span>
+                        @* Applies color based on occupancy rate thresholds *@
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+
+
+
+

@@ -1,0 +1,104 @@
+﻿@{
+    ViewData["Title"] = "Privacy Policy"; // Sets the page title
+}
+
+<style>
+    .privacy-wrapper {
+        display: flex;
+        justify-content: center;
+        margin-top: 40px;
+    }
+
+    .privacy-card {
+        background: #ffffff;
+        border-radius: 24px;
+        padding: 36px;
+        max-width: 820px;
+        width: 100%;
+        box-shadow: 0 16px 40px rgba(0,0,0,0.14);
+    }
+
+    .privacy-title {
+        font-weight: 900;
+        font-size: 2rem;
+        color: #111827;
+        margin-bottom: 20px;
+        text-align: center;
+        letter-spacing: 0.4px;
+    }
+
+    .privacy-section {
+        margin-bottom: 24px;
+    }
+
+        .privacy-section h5 {
+            font-weight: 800;
+            color: #4f46e5;
+            margin-bottom: 8px;
+        }
+
+        .privacy-section p {
+            color: #374151;
+            font-size: 0.95rem;
+            line-height: 1.7;
+        }
+</style>
+
+<div class="privacy-wrapper">
+    <div class="privacy-card">
+
+        <h1 class="privacy-title">@ViewData["Title"]</h1>
+        @* Displays the page title from ViewData *@
+
+        <div class="privacy-section">
+            <h5>1. Information Collection</h5>
+            <p>
+                CineVerse collects only the information necessary to provide core
+                functionalities such as user authentication, booking management,
+                and ticket processing.
+            </p>
+        </div>
+
+        <div class="privacy-section">
+            <h5>2. Use of Information</h5>
+            <p>
+                Collected data is used solely for operating the cinema booking system,
+                managing reservations, and improving user experience.
+            </p>
+        </div>
+
+        <div class="privacy-section">
+            <h5>3. Data Protection</h5>
+            <p>
+                Reasonable technical and organizational measures are implemented to
+                protect user data against unauthorized access, loss, or misuse.
+            </p>
+        </div>
+
+        <div class="privacy-section">
+            <h5>4. Third-Party Access</h5>
+            <p>
+                CineVerse does not share personal information with third parties
+                except when required by law or for system operation purposes.
+            </p>
+        </div>
+
+        <div class="privacy-section">
+            <h5>5. User Rights</h5>
+            <p>
+                Users have the right to access, update, or request deletion of their
+                personal information through the application.
+            </p>
+        </div>
+
+        <div class="privacy-section">
+            <h5>6. Changes to This Policy</h5>
+            <p>
+                This privacy policy may be updated periodically. Any changes will
+                be reflected on this page.
+            </p>
+        </div>
+
+    </div>
+</div>
+

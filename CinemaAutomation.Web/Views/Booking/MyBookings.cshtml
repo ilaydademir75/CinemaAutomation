@@ -1,0 +1,145 @@
+﻿@model IEnumerable<CinemaAutomation.Web.ViewModels.BookingHistoryViewModel>
+@* View model containing user's booking history list *@
+
+<style>
+    .page-title {
+        font-weight: 700;
+        color: #1f2933;
+        margin-bottom: 10px;
+        letter-spacing: 0.3px;
+    }
+
+    .page-sub {
+        color: #6c757d;
+        margin-bottom: 24px;
+        font-size: 0.95rem;
+    }
+
+    .table-card {
+        background: #ffffff;
+        border-radius: 18px;
+        padding: 24px;
+        box-shadow: 0 10px 26px rgba(0,0,0,0.10);
+    }
+
+    table {
+        font-size: 0.95rem;
+    }
+
+    thead {
+        background: linear-gradient(90deg, #e9ecef, #f8f9fa);
+    }
+
+        thead th {
+            font-weight: 600;
+            color: #495057;
+            border-bottom: none;
+            text-align: center;
+            padding: 14px;
+        }
+
+    tbody td {
+        text-align: center;
+        vertical-align: middle;
+        padding: 14px;
+    }
+
+    tbody tr {
+        transition: background-color 0.2s ease;
+    }
+
+        tbody tr:hover {
+            background-color: #f1f3f5;
+        }
+
+    .badge-booking {
+        background-color: #e3f2fd;
+        color: #0d6efd;
+        font-weight: 600;
+        border-radius: 20px;
+        padding: 6px 14px;
+        font-size: 0.85rem;
+    }
+
+    .amount-text {
+        font-weight: 700;
+        color: #198754;
+    }
+
+    .view-btn {
+        border-radius: 12px;
+        padding: 6px 16px;
+        font-weight: 600;
+    }
+
+    .empty-box {
+        background: #ffffff;
+        border-radius: 16px;
+        padding: 32px;
+        text-align: center;
+        color: #6c757d;
+        box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+    }
+</style>
+
+<h2 class="page-title">My Bookings</h2>
+<p class="page-sub">Here you can see your reservation history</p>
+
+@* Checks if the user has any bookings *@
+@if (!Model.Any())
+{
+    <div class="empty-box">
+        <p class="mb-0">You have no reservations yet.</p>
+    </div>
+}
+else
+{
+    <div class="table-card">
+        <table class="table table-bordered table-hover align-middle mb-0">
+            <thead>
+                <tr>
+                    <th>Booking #</th>
+                    <th>Date</th>
+                    <th>Total Amount</th>
+                    <th>Seats</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @* Iterates through booking history records *@
+                @foreach (var b in Model)
+                {
+                    <tr>
+                        <td>
+                            <span class="badge-booking">
+                                #@b.BookingId @* Displays booking identifier *@
+                            </span>
+                        </td>
+                        <td>
+                            @b.CreatedAt.ToString("dd/MM/yyyy HH:mm") @* Booking creation date *@
+                        </td>
+                        <td>
+                            <span class="amount-text">
+                                @b.TotalAmount ₺ @* Total paid amount *@
+                            </span>
+                        </td>
+                        <td>
+                            @b.SeatCount @* Number of seats in the booking *@
+                        </td>
+                        <td>
+                            @* Navigates to detailed booking view *@
+                            <a asp-action="BookingDetails"
+                               asp-route-id="@b.BookingId"
+                               class="btn btn-info btn-sm view-btn">
+                                View Details
+                            </a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+}
+
+
+

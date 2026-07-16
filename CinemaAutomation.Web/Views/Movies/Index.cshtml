@@ -1,0 +1,233 @@
+﻿@model IEnumerable<CinemaAutomation.Web.Data.Entities.Movie>
+@* Collection of movies passed from controller *@
+
+@{
+    ViewData["Title"] = "Movies"; // Sets page title
+}
+
+<style>
+    .page-title {
+        font-weight: 900;
+        color: #111827;
+        margin-bottom: 16px;
+        letter-spacing: 0.4px;
+    }
+
+    .action-bar {
+        display: flex;
+        justify-content: flex-end;
+        margin-bottom: 18px;
+    }
+
+    .create-btn {
+        border-radius: 16px;
+        padding: 10px 22px;
+        font-weight: 800;
+        background: linear-gradient(135deg, #ec4899, #db2777);
+        color: #ffffff;
+        text-decoration: none;
+        transition: all 0.25s ease;
+    }
+
+        .create-btn:hover {
+            background: linear-gradient(135deg, #db2777, #be185d);
+            transform: translateY(-2px);
+            box-shadow: 0 12px 26px rgba(236, 72, 153, 0.45);
+            color: #ffffff;
+        }
+
+    .table-card {
+        background: #ffffff;
+        border-radius: 24px;
+        padding: 24px;
+        box-shadow: 0 16px 40px rgba(0,0,0,0.14);
+    }
+
+    table {
+        font-size: 0.92rem;
+    }
+
+    thead th {
+        background: #111827 !important;
+        color: #ffffff;
+        font-weight: 800;
+        padding: 14px;
+        text-align: center;
+        border-bottom: none;
+        white-space: nowrap;
+    }
+
+    tbody td {
+        text-align: center;
+        vertical-align: middle;
+        padding: 14px;
+    }
+
+    tbody tr {
+        transition: background-color 0.2s ease;
+    }
+
+        tbody tr:hover {
+            background-color: #f9fafb;
+        }
+
+    .movie-title {
+        font-weight: 700;
+        color: #111827;
+    }
+
+    .movie-desc {
+        max-width: 260px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        color: #4b5563;
+    }
+
+    .poster-img {
+        border-radius: 10px;
+        box-shadow: 0 6px 14px rgba(0,0,0,0.25);
+    }
+
+    .status-badge {
+        display: inline-block;
+        padding: 6px 14px;
+        border-radius: 14px;
+        font-weight: 700;
+        font-size: 0.8rem;
+    }
+
+    .status-active {
+        background-color: #dcfce7;
+        color: #166534;
+    }
+
+    .status-passive {
+        background-color: #e5e7eb;
+        color: #374151;
+    }
+
+    .action-links a {
+        margin: 0 4px;
+        font-weight: 600;
+        text-decoration: none;
+    }
+
+    .link-edit {
+        color: #6366f1;
+    }
+
+    .link-details {
+        color: #16a34a;
+    }
+
+    .link-delete {
+        color: #dc2626;
+    }
+
+    .action-links a:hover {
+        text-decoration: underline;
+    }
+</style>
+
+<h2 class="page-title">Movies</h2>
+
+<div class="action-bar">
+    <a asp-action="Create" class="create-btn">
+        + Create New Movie
+    </a>
+    @* Navigates to movie creation page *@
+</div>
+
+<div class="table-card">
+    <table class="table table-bordered table-hover align-middle mb-0">
+        <thead>
+            <tr>
+                <th>@Html.DisplayNameFor(model => model.Title)</th>
+                <th>@Html.DisplayNameFor(model => model.Description)</th>
+                <th>@Html.DisplayNameFor(model => model.DurationMinutes)</th>
+                <th>@Html.DisplayNameFor(model => model.PosterPath)</th>
+                <th>@Html.DisplayNameFor(model => model.IsActive)</th>
+                <th>@Html.DisplayNameFor(model => model.CreatedAt)</th>
+                <th>Actions</th>
+                @* Table headers generated from model metadata *@
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                @* Iterates through each movie *@
+                <tr>
+                    <td class="movie-title">
+                        @Html.DisplayFor(modelItem => item.Title)
+                    </td>
+                    @* Displays movie title *@
+
+                    <td class="movie-desc">
+                        @Html.DisplayFor(modelItem => item.Description)
+                    </td>
+                    @* Displays truncated movie description *@
+
+                    <td>
+                        @Html.DisplayFor(modelItem => item.DurationMinutes) min
+                    </td>
+                    @* Displays movie duration *@
+
+                    <td>
+                        @if (!string.IsNullOrEmpty(item.PosterPath))
+                        {
+                            <img src="@item.PosterPath"
+                                 width="70"
+                                 height="100"
+                                 class="poster-img"
+                                 style="object-fit:cover;" />
+                        }
+                        else
+                        {
+                            <span class="text-muted">No Poster</span>
+                        }
+                    </td>
+                    @* Shows poster image if available *@
+
+                    <td>
+                        @if (item.IsActive)
+                        {
+                            <span class="status-badge status-active">Active</span>
+                        }
+                        else
+                        {
+                            <span class="status-badge status-passive">Passive</span>
+                        }
+                    </td>
+                    @* Displays movie active/passive status *@
+
+                    <td>
+                        @Html.DisplayFor(modelItem => item.CreatedAt)
+                    </td>
+                    @* Displays creation date *@
+
+                    <td class="action-links">
+                        <a asp-action="Edit"
+                           asp-route-id="@item.MovieId"
+                           class="link-edit">
+                            Edit
+                        </a> |
+                        <a asp-action="Details"
+                           asp-route-id="@item.MovieId"
+                           class="link-details">
+                            Details
+                        </a> |
+                        <a asp-action="Delete"
+                           asp-route-id="@item.MovieId"
+                           class="link-delete">
+                            Delete
+                        </a>
+                    </td>
+                    @* CRUD action links for each movie *@
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+

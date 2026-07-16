@@ -1,0 +1,213 @@
+﻿@*
+    _Layout.cshtml
+    Purpose: Shared layout for all pages (navbar + body)
+*@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - CineVerse</title>
+    @* Uses ViewData to dynamically set page title *@
+
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+
+    <style>
+        body {
+            min-height: 100vh;
+            background: linear-gradient(180deg, #f9fafb, #f3f4f6);
+            font-family: 'Segoe UI', Tahoma, sans-serif;
+        }
+
+        .navbar {
+            background: linear-gradient(135deg, #111827, #1f2937);
+            box-shadow: 0 6px 18px rgba(0,0,0,0.25);
+            padding: 0.7rem 1rem;
+        }
+
+        .navbar-brand {
+            font-weight: 800;
+            font-size: 1.25rem;
+            letter-spacing: 0.6px;
+            color: #ffffff !important;
+        }
+
+            .navbar-brand span {
+                color: #ec4899;
+            }
+
+        .navbar-nav .nav-link,
+        .navbar-text {
+            color: #e5e7eb !important;
+            font-weight: 600;
+            margin-left: 10px;
+            transition: all 0.25s ease;
+        }
+
+            .navbar-nav .nav-link:hover {
+                color: #ffffff !important;
+                transform: translateY(-1px);
+                opacity: 0.95;
+            }
+
+        main.container {
+            padding-top: 10px;
+            padding-bottom: 20px;
+        }
+
+        footer {
+            background-color: transparent;
+            color: #6b7280;
+            font-size: 0.85rem;
+        }
+
+            footer small {
+                letter-spacing: 0.3px;
+            }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand"
+                   asp-controller="Home"
+                   asp-action="Index">
+                    🎬 Cine<span>Verse</span>
+                </a>
+                @* Navigates to Home/Index *@
+
+                <div class="collapse navbar-collapse">
+                    <ul class="navbar-nav ms-auto">
+
+                        @if (User.Identity != null && User.Identity.IsAuthenticated)
+                        {
+                            @* Checks if user is authenticated *@
+                            <li class="nav-item">
+                                <span class="navbar-text me-3">
+                                    Hello, @User.Identity.Name
+                                </span>
+                            </li>
+                            @* Displays logged-in user's name *@
+
+                            @if (User.IsInRole("User"))
+                            {
+                                @* Navigation items for regular users *@
+                                <li class="nav-item">
+                                    <a class="nav-link"
+                                       asp-controller="SnackShop"
+                                       asp-action="Index">
+                                        Snack Shop
+                                    </a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a class="nav-link"
+                                       asp-controller="SnackShop"
+                                       asp-action="Orders">
+                                        My Orders
+                                    </a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a class="nav-link"
+                                       asp-controller="Booking"
+                                       asp-action="MyBookings">
+                                        My Bookings
+                                    </a>
+                                </li>
+                            }
+
+                            @if (User.IsInRole("Admin"))
+                            {
+                                @* Navigation item visible only to Admin role *@
+                                <li class="nav-item">
+                                    <a class="nav-link"
+                                       asp-controller="Admin"
+                                       asp-action="Index">
+                                        Admin Panel
+                                    </a>
+                                </li>
+                            }
+
+                            @if (User.IsInRole("Company"))
+                            {
+                                @* Navigation item visible only to Company role *@
+                                <li class="nav-item">
+                                    <a class="nav-link"
+                                       asp-controller="Company"
+                                       asp-action="Index">
+                                        Company Panel
+                                    </a>
+                                </li>
+                            }
+
+                            <li class="nav-item">
+                                <a class="nav-link"
+                                   asp-controller="Account"
+                                   asp-action="Logout">
+                                    Logout
+                                </a>
+                            </li>
+                            @* Logs the user out *@
+                        }
+                        else
+                        {
+                            @* Navigation items for unauthenticated users *@
+                            <li class="nav-item">
+                                <a class="nav-link"
+                                   asp-controller="Account"
+                                   asp-action="Login">
+                                    Login
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link"
+                                   asp-controller="Account"
+                                   asp-action="Register">
+                                    Register
+                                </a>
+                            </li>
+                        }
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    @{
+        var action = ViewContext.RouteData.Values["action"]?.ToString();
+        bool isAuthPage = action == "Login" || action == "Register";
+    }
+
+    @if (isAuthPage)
+    {
+        @RenderBody()
+        @* Renders authentication pages without layout container *@
+    }
+    else
+    {
+        <main class="container mt-4">
+            @RenderBody()
+            @* Renders page-specific content *@
+        </main>
+
+        <footer class="text-center mt-5 p-3">
+            <small>&copy; 2025 – CineVerse. All rights reserved.</small>
+        </footer>
+        @* Shared footer for all non-auth pages *@
+    }
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+    @RenderSection("Scripts", required: false)
+    @* Optional section for page-specific scripts *@
+</body>
+</html>
+
+
+

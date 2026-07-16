@@ -1,0 +1,153 @@
+﻿@model CinemaAutomation.Web.Data.Entities.Snack
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Delete Snack</title>
+
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" /> <!-- Bootstrap CSS -->
+
+    <style>
+        body {
+            min-height: 100vh;
+            background: linear-gradient(180deg, #fef2f2, #fee2e2);
+            font-family: 'Segoe UI', Tahoma, sans-serif;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 30px;
+        }
+
+        .delete-card {
+            background: #ffffff;
+            border-radius: 24px;
+            padding: 32px;
+            width: 100%;
+            max-width: 520px;
+            box-shadow: 0 18px 45px rgba(0,0,0,0.18);
+        }
+
+        .delete-title {
+            font-weight: 900;
+            color: #991b1b;
+            text-align: center;
+            margin-bottom: 6px;
+            letter-spacing: 0.4px;
+        }
+
+        .delete-warning {
+            text-align: center;
+            color: #6b7280;
+            font-size: 0.95rem;
+            margin-bottom: 24px;
+        }
+
+        dt {
+            font-weight: 700;
+            color: #374151;
+        }
+
+        dd {
+            color: #111827;
+        }
+
+        .danger-btn {
+            border-radius: 18px;
+            padding: 12px;
+            font-weight: 800;
+            background: linear-gradient(135deg, #ef4444, #dc2626);
+            border: none;
+            color: #ffffff;
+            transition: all 0.25s ease;
+            width: 100%;
+        }
+
+            .danger-btn:hover {
+                background: linear-gradient(135deg, #dc2626, #b91c1c);
+                transform: translateY(-2px);
+                box-shadow: 0 14px 28px rgba(220, 38, 38, 0.45);
+            }
+
+        .back-link {
+            display: block;
+            text-align: center;
+            margin-top: 18px;
+            font-weight: 600;
+            text-decoration: none;
+            color: #991b1b;
+        }
+
+            .back-link:hover {
+                text-decoration: underline;
+            }
+    </style>
+</head>
+
+<body>
+
+    <div class="delete-card">
+
+        <!-- Page header -->
+        <h3 class="delete-title">Delete Snack</h3>
+        <p class="delete-warning">
+            Are you sure you want to permanently delete this snack?
+        </p>
+
+        <hr />
+
+        <!-- Snack details for confirmation -->
+        <dl class="row mb-4">
+            <dt class="col-sm-4">
+                @Html.DisplayNameFor(model => model.Name) @* Snack name label *@
+            </dt>
+            <dd class="col-sm-8">
+                @Html.DisplayFor(model => model.Name)  @* Snack name value *@
+            </dd>
+
+            <dt class="col-sm-4">
+                @Html.DisplayNameFor(model => model.UnitPrice) @* Unit price label *@
+            </dt>
+            <dd class="col-sm-8">
+                @Html.DisplayFor(model => model.UnitPrice)  @* Unit price value *@
+            </dd>
+
+            <dt class="col-sm-4">
+                @Html.DisplayNameFor(model => model.StockQuantity) @* Stock quantity label *@
+            </dt>
+            <dd class="col-sm-8">
+                @Html.DisplayFor(model => model.StockQuantity) @* Stock quantity value *@
+            </dd>
+
+            <dt class="col-sm-4">
+                @Html.DisplayNameFor(model => model.IsActive) @* Active status label *@
+            </dt>
+            <dd class="col-sm-8">
+                @Html.DisplayFor(model => model.IsActive) @* Active status value *@
+            </dd>
+        </dl>
+
+        <!-- Delete confirmation form -->
+        <form asp-action="Delete">
+            @* Hidden field to identify the snack being deleted *@
+            <input type="hidden" asp-for="SnackId" />
+
+            <button type="submit" class="danger-btn">
+                Delete Snack
+            </button>
+        </form>
+
+        <!-- Back to snack list -->
+        <a asp-action="Index" class="back-link">
+            ← Back to Snack List
+        </a>
+
+    </div>
+
+</body>
+</html>
+

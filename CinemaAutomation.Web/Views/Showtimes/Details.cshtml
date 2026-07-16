@@ -1,0 +1,182 @@
+﻿@model CinemaAutomation.Web.Data.Entities.Showtime
+@* View model representing the selected showtime *@
+
+
+@{
+    Layout = null;
+}
+@* Disables shared layout to render a standalone details page *@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Showtime Details</title>
+
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    @* Loads Bootstrap styles *@
+
+    <style>
+        body {
+            min-height: 100vh;
+            background: linear-gradient(180deg, #f9fafb, #f3f4f6);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: 'Segoe UI', Tahoma, sans-serif;
+        }
+
+        .details-card {
+            background: #ffffff;
+            border-radius: 24px;
+            padding: 32px 36px;
+            box-shadow: 0 16px 40px rgba(0,0,0,0.14);
+            max-width: 620px;
+            width: 100%;
+        }
+
+        .page-title {
+            font-weight: 900;
+            color: #111827;
+            text-align: center;
+            margin-bottom: 6px;
+            letter-spacing: 0.4px;
+        }
+
+        .page-sub {
+            text-align: center;
+            color: #6b7280;
+            font-size: 0.9rem;
+            margin-bottom: 24px;
+        }
+
+        dl.row dt {
+            font-weight: 700;
+            color: #374151;
+        }
+
+        dl.row dd {
+            color: #111827;
+            margin-bottom: 12px;
+        }
+
+        .status-badge {
+            display: inline-block;
+            padding: 6px 14px;
+            border-radius: 14px;
+            font-weight: 700;
+            font-size: 0.8rem;
+        }
+
+        .status-active {
+            background-color: #dcfce7;
+            color: #166534;
+        }
+
+        .status-passive {
+            background-color: #e5e7eb;
+            color: #374151;
+        }
+
+        .action-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 28px;
+            flex-wrap: wrap;
+            gap: 12px;
+        }
+
+        .edit-btn {
+            border-radius: 16px;
+            padding: 10px 26px;
+            font-weight: 700;
+            font-size: 0.9rem;
+            background: linear-gradient(135deg, #6366f1, #4f46e5);
+            color: #ffffff;
+            text-decoration: none;
+            transition: all 0.25s ease;
+        }
+
+            .edit-btn:hover {
+                background: linear-gradient(135deg, #4f46e5, #4338ca);
+                color: #ffffff;
+                transform: translateY(-2px);
+                box-shadow: 0 12px 26px rgba(79, 70, 229, 0.45);
+            }
+
+        .back-link {
+            font-weight: 600;
+            color: #2563eb;
+            text-decoration: none;
+        }
+
+            .back-link:hover {
+                text-decoration: underline;
+            }
+
+        hr {
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="details-card">
+
+        <h3 class="page-title">Showtime Details</h3>
+        <div class="page-sub">
+            View scheduled screening information
+        </div>
+
+        <dl class="row">
+            <dt class="col-sm-4">@Html.DisplayNameFor(model => model.MovieId)</dt>
+            <dd class="col-sm-8">@Html.DisplayFor(model => model.MovieId)</dd>
+            @* Displays related movie identifier *@
+
+            <dt class="col-sm-4">@Html.DisplayNameFor(model => model.HallId)</dt>
+            <dd class="col-sm-8">@Html.DisplayFor(model => model.HallId)</dd>
+            @* Displays related hall identifier *@
+
+            <dt class="col-sm-4">@Html.DisplayNameFor(model => model.StartTime)</dt>
+            <dd class="col-sm-8">@Html.DisplayFor(model => model.StartTime)</dd>
+            @* Displays showtime start date and time *@
+
+            <dt class="col-sm-4">@Html.DisplayNameFor(model => model.TicketBasePrice)</dt>
+            <dd class="col-sm-8">@Html.DisplayFor(model => model.TicketBasePrice)</dd>
+            @* Displays base ticket price *@
+
+            <dt class="col-sm-4">@Html.DisplayNameFor(model => model.IsActive)</dt>
+            <dd class="col-sm-8">
+                @if (Model.IsActive)
+                {
+                    <span class="status-badge status-active">Active</span>
+                }
+                else
+                {
+                    <span class="status-badge status-passive">Passive</span>
+                }
+            </dd>
+            @* Displays showtime active/passive status *@
+        </dl>
+
+        <div class="action-row">
+            <a asp-action="Edit"
+               asp-route-id="@Model?.ShowtimeId"
+               class="edit-btn">
+                Edit Showtime
+            </a>
+            @* Navigates to edit page for this showtime *@
+
+            <a asp-action="Index" class="back-link">
+                Back to Showtimes
+            </a>
+            @* Navigates back to showtime list *@
+        </div>
+
+    </div>
+
+</body>
+</html>
+

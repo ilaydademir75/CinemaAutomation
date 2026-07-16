@@ -1,0 +1,110 @@
+﻿@model CinemaAutomation.Web.Data.Entities.SnackOrder
+
+<style>
+    .page-title {
+        font-weight: 900;
+        color: #1e293b;
+        margin-bottom: 10px;
+        letter-spacing: 0.4px;
+    }
+
+    .order-card {
+        background: #ffffff;
+        border-radius: 20px;
+        padding: 24px;
+        box-shadow: 0 12px 30px rgba(0,0,0,0.12);
+    }
+
+    .order-info {
+        font-size: 0.95rem;
+        color: #334155;
+        margin-bottom: 20px;
+    }
+
+        .order-info strong {
+            color: #0f172a;
+        }
+
+    thead th {
+        background: #1e293b !important;
+        color: #ffffff;
+        font-weight: 800;
+        padding: 14px;
+        text-align: center;
+        border-bottom: none;
+    }
+
+    tbody td {
+        text-align: center;
+        vertical-align: middle;
+        padding: 14px;
+        font-size: 0.95rem;
+    }
+
+    tbody tr:hover {
+        background-color: #f8fafc;
+    }
+
+    .total-highlight {
+        font-size: 1.1rem;
+        font-weight: 900;
+        color: #0f172a;
+    }
+
+    .back-btn {
+        margin-top: 20px;
+        border-radius: 14px;
+        padding: 10px 22px;
+        font-weight: 700;
+    }
+</style>
+
+@* Order header showing unique order number *@
+<h2 class="page-title">
+    Order #@Model.SnackOrderId
+</h2>
+
+@* Order summary information *@
+<div class="order-card">
+    <div class="order-info">
+        <strong>Date:</strong> @Model.OrderDate.ToString("dd/MM/yyyy HH:mm") <br />
+        <strong>Total:</strong>
+        <span class="total-highlight">
+            @Model.TotalAmount ₺
+        </span>
+    </div>
+
+    @* Section title for ordered snack items *@
+    <h5 class="mb-3">Items</h5>
+
+    @* Table listing all snacks in this order *@
+    <table class="table table-bordered table-hover align-middle mb-0">
+        <thead>
+            <tr>
+                <th>Snack</th>
+                <th>Quantity</th>
+                <th>Unit Price</th>
+                <th>Subtotal</th>
+            </tr>
+        </thead>
+        <tbody>
+            @* Iterate through order items passed via ViewBag *@
+            @foreach (var row in ViewBag.Items)
+            {
+                <tr>
+                    <td>@row.Name</td>
+                    <td>@row.Quantity</td>
+                    <td>@row.UnitPrice ₺</td>
+                    <td>@(row.Quantity * row.UnitPrice) ₺</td> @* Calculate subtotal per snack item *@
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+@* Navigate back to user's snack order history *@
+<a asp-action="Orders" class="btn btn-outline-secondary back-btn">
+    ← Back to Orders
+</a>
+
+

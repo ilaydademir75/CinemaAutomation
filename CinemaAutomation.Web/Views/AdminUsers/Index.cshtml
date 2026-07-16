@@ -1,0 +1,112 @@
+﻿@model List<CinemaAutomation.Web.Data.Entities.User>
+
+<style>
+    .page-title {
+        font-weight: 600;
+        color: #1f2933;
+        margin-bottom: 24px;
+    }
+
+    .table-wrapper {
+        background: #ffffff;
+        border-radius: 14px;
+        padding: 20px;
+        box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+    }
+
+    table {
+        font-size: 0.95rem;
+    }
+
+    thead {
+        background-color: #f1f3f5;
+    }
+
+        thead th {
+            font-weight: 600;
+            color: #495057;
+            border-bottom: none;
+        }
+
+    tbody tr {
+        vertical-align: middle;
+    }
+
+        tbody tr:hover {
+            background-color: #f8f9fa;
+        }
+
+    .badge {
+        font-size: 0.8rem;
+        padding: 6px 10px;
+        border-radius: 12px;
+    }
+
+    .action-btn {
+        border-radius: 10px;
+        font-size: 0.8rem;
+        padding: 6px 12px;
+    }
+
+    .back-btn {
+        margin-top: 20px;
+    }
+</style>
+
+<h2 class="page-title">User Management</h2>
+
+<div class="table-wrapper">
+
+    <table class="table table-hover align-middle mb-0">
+        <thead>
+            <tr>
+                <th>Full Name</th>
+                <th>Email Address</th>
+                <th>User Role</th>
+                <th>Account Status</th>
+                <th class="text-center">Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            @* Iterates over all users in the model *@
+            @foreach (var user in Model)
+            {
+                <tr>
+                    <td>@user.FullName</td>
+                    <td>@user.Email</td>
+                    <td>@user.Role?.Name</td> @* Safe navigation for optional Role *@
+                    <td>
+                        @* Displays user status based on IsActive flag *@
+                        @if (user.IsActive)
+                        {
+                            <span class="badge bg-success">Active</span>
+                        }
+                        else
+                        {
+                            <span class="badge bg-danger">Inactive</span>
+                        }
+                    </td>
+                    <td class="text-center">
+                        @* Posts request to toggle user active status *@
+                        <form asp-action="ToggleActive" method="post" class="d-inline">
+                            <input type="hidden" name="id" value="@user.UserId" /> @* Sends user id *@
+                            <button class="btn btn-warning btn-sm action-btn">
+                                Toggle Status
+                            </button>
+                        </form>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+</div>
+
+@* Navigates back to admin dashboard *@
+<a asp-controller="Admin"
+   asp-action="Index"
+   class="btn btn-outline-secondary back-btn">
+    ← Back to Admin Panel
+</a>
+
+

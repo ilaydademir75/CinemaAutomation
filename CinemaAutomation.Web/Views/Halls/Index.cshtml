@@ -1,0 +1,191 @@
+﻿@model IEnumerable<CinemaAutomation.Web.Data.Entities.Hall>
+@* View model containing the list of halls *@
+
+@{
+    ViewData["Title"] = "Halls"; // Sets the page title
+}
+
+<style>
+    .page-title {
+        font-weight: 800;
+        color: #111827;
+        margin-bottom: 16px;
+        letter-spacing: 0.3px;
+    }
+
+    .action-bar {
+        display: flex;
+        justify-content: flex-end;
+        margin-bottom: 18px;
+    }
+
+    .create-btn {
+        border-radius: 16px;
+        padding: 10px 22px;
+        font-weight: 800;
+        background: linear-gradient(135deg, #22c55e, #16a34a);
+        color: #ffffff;
+        text-decoration: none;
+        transition: all 0.25s ease;
+    }
+
+        .create-btn:hover {
+            background: linear-gradient(135deg, #16a34a, #15803d);
+            transform: translateY(-2px);
+            box-shadow: 0 12px 26px rgba(34, 197, 94, 0.45);
+            color: #ffffff;
+        }
+
+    .table-card {
+        background: #ffffff;
+        border-radius: 24px;
+        padding: 24px;
+        box-shadow: 0 16px 40px rgba(0,0,0,0.14);
+    }
+
+    table {
+        font-size: 0.95rem;
+    }
+
+    thead th {
+        background: #111827 !important;
+        color: #ffffff;
+        font-weight: 800;
+        padding: 14px;
+        text-align: center;
+        border-bottom: none;
+        white-space: nowrap;
+    }
+
+    tbody td {
+        text-align: center;
+        vertical-align: middle;
+        padding: 14px;
+    }
+
+    tbody tr {
+        transition: background-color 0.2s ease;
+    }
+
+        tbody tr:hover {
+            background-color: #f9fafb;
+        }
+
+    .status-badge {
+        display: inline-block;
+        padding: 6px 14px;
+        border-radius: 14px;
+        font-weight: 700;
+        font-size: 0.8rem;
+    }
+
+    .status-active {
+        background-color: #dcfce7;
+        color: #166534;
+    }
+
+    .status-passive {
+        background-color: #e5e7eb;
+        color: #374151;
+    }
+
+    .action-links a {
+        margin: 0 4px;
+        font-weight: 600;
+        text-decoration: none;
+    }
+
+    .link-seats {
+        color: #0ea5e9;
+    }
+
+    .link-edit {
+        color: #6366f1;
+    }
+
+    .link-details {
+        color: #16a34a;
+    }
+
+    .link-delete {
+        color: #dc2626;
+    }
+
+    .action-links a:hover {
+        text-decoration: underline;
+    }
+</style>
+
+<h2 class="page-title">Halls</h2>
+
+<div class="action-bar">
+    @* Navigates to hall creation page *@
+    <a asp-action="Create" class="create-btn">
+        + Create New Hall
+    </a>
+</div>
+
+<div class="table-card">
+    <table class="table table-bordered table-hover align-middle mb-0">
+        <thead>
+            <tr>
+                <th>@Html.DisplayNameFor(model => model.CompanyId)</th>
+                <th>@Html.DisplayNameFor(model => model.Name)</th>
+                <th>@Html.DisplayNameFor(model => model.TotalRows)</th>
+                <th>@Html.DisplayNameFor(model => model.TotalColumns)</th>
+                <th>@Html.DisplayNameFor(model => model.IsActive)</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @* Iterates through halls provided by the controller *@
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@Html.DisplayFor(modelItem => item.CompanyId)</td> @* Displays company identifier *@
+                    <td>@Html.DisplayFor(modelItem => item.Name)</td> @* Displays hall name *@
+                    <td>@Html.DisplayFor(modelItem => item.TotalRows)</td> @* Displays number of seat rows *@
+                    <td>@Html.DisplayFor(modelItem => item.TotalColumns)</td> @* Displays number of seats per row *@
+                    <td>
+                        @* Shows hall status based on IsActive flag *@
+                        @if (item.IsActive)
+                        {
+                            <span class="status-badge status-active">Active</span>
+                        }
+                        else
+                        {
+                            <span class="status-badge status-passive">Passive</span>
+                        }
+                    </td>
+                    <td class="action-links">
+                        @* Navigates to seat layout of the hall *@
+                        <a asp-action="ViewSeats"
+                           asp-route-id="@item.HallId"
+                           class="link-seats">
+                            Seats
+                        </a> |
+                        @* Navigates to edit hall page *@
+                        <a asp-action="Edit"
+                           asp-route-id="@item.HallId"
+                           class="link-edit">
+                            Edit
+                        </a> |
+                        @* Navigates to hall details page *@
+                        <a asp-action="Details"
+                           asp-route-id="@item.HallId"
+                           class="link-details">
+                            Details
+                        </a> |
+                        @* Navigates to delete confirmation page *@
+                        <a asp-action="Delete"
+                           asp-route-id="@item.HallId"
+                           class="link-delete">
+                            Delete
+                        </a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+

@@ -1,0 +1,161 @@
+﻿@model CinemaAutomation.Web.Data.Entities.Movie
+@* View model representing the selected movie *@
+
+@{
+    ViewData["Title"] = "Movie Details"; // Sets page title
+}
+
+<style>
+    .page-title {
+        font-weight: 900;
+        color: #111827;
+        margin-bottom: 6px;
+        letter-spacing: 0.4px;
+        text-align: center;
+    }
+
+    .page-sub {
+        color: #6b7280;
+        margin-bottom: 28px;
+        font-size: 0.95rem;
+        text-align: center;
+    }
+
+    .details-wrapper {
+        display: flex;
+        justify-content: center;
+    }
+
+    .details-card {
+        background: #ffffff;
+        border-radius: 24px;
+        padding: 32px;
+        box-shadow: 0 16px 40px rgba(0,0,0,0.14);
+        max-width: 620px;
+        width: 100%;
+    }
+
+    dl.row dt {
+        font-weight: 700;
+        color: #374151;
+    }
+
+    dl.row dd {
+        color: #111827;
+        margin-bottom: 12px;
+    }
+
+    .status-badge {
+        display: inline-block;
+        padding: 6px 14px;
+        border-radius: 14px;
+        font-weight: 700;
+        font-size: 0.8rem;
+    }
+
+    .status-active {
+        background-color: #dcfce7;
+        color: #166534;
+    }
+
+    .status-passive {
+        background-color: #e5e7eb;
+        color: #374151;
+    }
+
+    .action-row {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 28px;
+        flex-wrap: wrap;
+        gap: 12px;
+    }
+
+    .edit-btn {
+        border-radius: 16px;
+        padding: 10px 26px;
+        font-weight: 700;
+        font-size: 0.9rem;
+        background: linear-gradient(135deg, #6366f1, #4f46e5);
+        color: #ffffff;
+        text-decoration: none;
+        transition: all 0.25s ease;
+    }
+
+        .edit-btn:hover {
+            background: linear-gradient(135deg, #4f46e5, #4338ca);
+            color: #ffffff;
+            transform: translateY(-2px);
+            box-shadow: 0 12px 26px rgba(79, 70, 229, 0.45);
+        }
+
+    .back-link {
+        font-weight: 600;
+        color: #2563eb;
+        text-decoration: none;
+    }
+
+        .back-link:hover {
+            text-decoration: underline;
+        }
+</style>
+
+<h2 class="page-title">Movie Details</h2>
+<p class="page-sub">View movie information and status</p>
+
+<div class="details-wrapper">
+    <div class="details-card">
+
+        <dl class="row">
+            <dt class="col-sm-4">@Html.DisplayNameFor(model => model.Title)</dt>
+            <dd class="col-sm-8">@Html.DisplayFor(model => model.Title)</dd>
+            @* Displays movie title *@
+
+            <dt class="col-sm-4">@Html.DisplayNameFor(model => model.Description)</dt>
+            <dd class="col-sm-8">@Html.DisplayFor(model => model.Description)</dd>
+            @* Displays movie description *@
+
+            <dt class="col-sm-4">@Html.DisplayNameFor(model => model.DurationMinutes)</dt>
+            <dd class="col-sm-8">@Html.DisplayFor(model => model.DurationMinutes)</dd>
+            @* Displays movie duration in minutes *@
+
+            <dt class="col-sm-4">@Html.DisplayNameFor(model => model.PosterPath)</dt>
+            <dd class="col-sm-8">@Html.DisplayFor(model => model.PosterPath)</dd>
+            @* Displays poster file path *@
+
+            <dt class="col-sm-4">@Html.DisplayNameFor(model => model.IsActive)</dt>
+            <dd class="col-sm-8">
+                @if (Model.IsActive)
+                {
+                    <span class="status-badge status-active">Active</span>
+                }
+                else
+                {
+                    <span class="status-badge status-passive">Passive</span>
+                }
+            </dd>
+            @* Shows movie active/passive status *@
+
+            <dt class="col-sm-4">@Html.DisplayNameFor(model => model.CreatedAt)</dt>
+            <dd class="col-sm-8">@Html.DisplayFor(model => model.CreatedAt)</dd>
+            @* Displays movie creation date *@
+        </dl>
+
+        <div class="action-row">
+            <a asp-action="Edit"
+               asp-route-id="@Model?.MovieId"
+               class="edit-btn">
+                Edit Movie
+            </a>
+            @* Navigates to edit page for this movie *@
+
+            <a asp-action="Index" class="back-link">
+                Back to Movie List
+            </a>
+            @* Returns to movie list *@
+        </div>
+
+    </div>
+</div>
+

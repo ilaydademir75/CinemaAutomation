@@ -1,0 +1,185 @@
+﻿@model IEnumerable<CinemaAutomation.Web.Data.Entities.Snack>
+
+@{
+    ViewData["Title"] = "Snack Shop"; // Page title shown in browser tab
+}
+
+<style>
+    .page-title {
+        font-weight: 900;
+        color: #1e293b;
+        margin-bottom: 18px;
+        letter-spacing: 0.4px;
+    }
+
+    .shop-card {
+        background: #ffffff;
+        border-radius: 20px;
+        padding: 24px;
+        box-shadow: 0 12px 30px rgba(0,0,0,0.12);
+    }
+
+    thead th {
+        background: #1e293b !important;
+        color: #ffffff;
+        font-weight: 800;
+        padding: 14px;
+        text-align: center;
+        border-bottom: none;
+    }
+
+    tbody td {
+        text-align: center;
+        vertical-align: middle;
+        padding: 14px;
+        font-size: 0.95rem;
+    }
+
+    tbody tr:hover {
+        background-color: #f8fafc;
+    }
+
+    .price-badge {
+        background-color: #e0f2fe;
+        color: #075985;
+        padding: 6px 14px;
+        border-radius: 14px;
+        font-weight: 700;
+        font-size: 0.85rem;
+    }
+
+    .stock-low {
+        background-color: #fef3c7;
+        color: #92400e;
+        padding: 6px 14px;
+        border-radius: 14px;
+        font-weight: 700;
+        font-size: 0.8rem;
+    }
+
+    .stock-out {
+        background-color: #fee2e2;
+        color: #991b1b;
+        padding: 6px 14px;
+        border-radius: 14px;
+        font-weight: 700;
+        font-size: 0.8rem;
+    }
+
+    .add-btn {
+        border-radius: 14px;
+        padding: 8px 16px;
+        font-weight: 800;
+        background: linear-gradient(135deg, #2563eb, #1d4ed8);
+        border: none;
+        color: #ffffff;
+    }
+
+        .add-btn:hover {
+            background: linear-gradient(135deg, #1d4ed8, #1e40af);
+            box-shadow: 0 8px 20px rgba(37, 99, 235, 0.45);
+        }
+
+    .go-cart-btn {
+        margin-top: 20px;
+        border-radius: 16px;
+        padding: 12px 26px;
+        font-weight: 800;
+        background: linear-gradient(135deg, #16a34a, #15803d);
+        border: none;
+        color: #ffffff;
+    }
+
+        .go-cart-btn:hover {
+            background: linear-gradient(135deg, #15803d, #166534);
+            box-shadow: 0 10px 24px rgba(22, 163, 74, 0.45);
+        }
+</style>
+
+<h2 class="page-title">Snack Shop</h2>
+
+@* Display success message after adding snack to cart *@
+@if (TempData["Success"] != null)
+{
+    <div class="alert alert-success">
+        @TempData["Success"]
+    </div>
+}
+
+<div class="shop-card">
+    @* Snack list table *@
+    <table class="table table-bordered table-hover align-middle mb-0">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Price</th>
+                <th>Stock</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @* Iterate through all available snacks *@
+            @foreach (var snack in Model)
+            {
+                <tr>
+                    <td>@snack.Name</td> @* Snack name *@
+
+                    <td>
+                        <span class="price-badge"> @* Snack unit price *@
+                            @snack.UnitPrice.ToString("0.00") ₺
+                        </span>
+                    </td>
+
+                    <td>
+                        @if (snack.StockQuantity == 0) @* Stock status logic *@
+                        {
+                            <span class="stock-out">Out of stock</span>
+                        }
+                        else if (snack.StockQuantity <= 5)
+                        {
+                            <span class="stock-low">
+                                Low stock (@snack.StockQuantity left)
+                            </span>
+                        }
+                        else
+                        {
+                            <span class="price-badge">
+                                @snack.StockQuantity available
+                            </span>
+                        }
+                    </td>
+
+                    @* Add to cart action *@
+                    <td>
+                        @if (snack.StockQuantity > 0)
+                        {
+                            <form asp-action="AddToCart"
+                                  asp-controller="SnackShop"
+                                  method="post">
+                                @* Hidden snack id for cart operation *@
+                                <input type="hidden" name="snackId" value="@snack.SnackId" />
+                                <button type="submit" class="add-btn">
+                                    Add to Cart
+                                </button>
+                            </form>
+                        }
+                        else
+                        {
+                            @* Disabled button when snack is unavailable *@
+                            <button class="btn btn-outline-secondary btn-sm" disabled>
+                                Unavailable
+                            </button>
+                        }
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+@* Navigate to snack cart page *@
+<a asp-action="Cart" class="go-cart-btn">
+    Go to Cart
+</a>
+
+

@@ -1,0 +1,225 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = CinemaAutomation.Web
+build_property.RootNamespace = CinemaAutomation.Web
+build_property.ProjectDir = C:\Users\DELL\Desktop\220709103_İlaydaDemir\CinemaAutomation.Web\CinemaAutomation.Web\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\DELL\Desktop\220709103_İlaydaDemir\CinemaAutomation.Web\CinemaAutomation.Web
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 8.0
+build_property.EnableCodeStyleSeverity = 
+
+[C:/Users/DELL/Desktop/220709103_İlaydaDemir/CinemaAutomation.Web/CinemaAutomation.Web/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DELL/Desktop/220709103_İlaydaDemir/CinemaAutomation.Web/CinemaAutomation.Web/Views/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DELL/Desktop/220709103_İlaydaDemir/CinemaAutomation.Web/CinemaAutomation.Web/Views/AdminUsers/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5Vc2Vyc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DELL/Desktop/220709103_İlaydaDemir/CinemaAutomation.Web/CinemaAutomation.Web/Views/Admin/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DELL/Desktop/220709103_İlaydaDemir/CinemaAutomation.Web/CinemaAutomation.Web/Views/Booking/BookingDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va2luZ1xCb29raW5nRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DELL/Desktop/220709103_İlaydaDemir/CinemaAutomation.Web/CinemaAutomation.Web/Views/Booking/Checkout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va2luZ1xDaGVja291dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DELL/Desktop/220709103_İlaydaDemir/CinemaAutomation.Web/CinemaAutomation.Web/Views/Booking/MyBookings.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va2luZ1xNeUJvb2tpbmdzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DELL/Desktop/220709103_İlaydaDemir/CinemaAutomation.Web/CinemaAutomation.Web/Views/Booking/SelectSeats.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va2luZ1xTZWxlY3RTZWF0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DELL/Desktop/220709103_İlaydaDemir/CinemaAutomation.Web/CinemaAutomation.Web/Views/Booking/Success.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va2luZ1xTdWNjZXNzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DELL/Desktop/220709103_İlaydaDemir/CinemaAutomation.Web/CinemaAutomation.Web/Views/CompanyHalls/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcGFueUhhbGxzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DELL/Desktop/220709103_İlaydaDemir/CinemaAutomation.Web/CinemaAutomation.Web/Views/CompanyReports/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcGFueVJlcG9ydHNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DELL/Desktop/220709103_İlaydaDemir/CinemaAutomation.Web/CinemaAutomation.Web/Views/CompanyShowtimes/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcGFueVNob3d0aW1lc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DELL/Desktop/220709103_İlaydaDemir/CinemaAutomation.Web/CinemaAutomation.Web/Views/CompanyShowtimes/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcGFueVNob3d0aW1lc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DELL/Desktop/220709103_İlaydaDemir/CinemaAutomation.Web/CinemaAutomation.Web/Views/CompanyShowtimes/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcGFueVNob3d0aW1lc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DELL/Desktop/220709103_İlaydaDemir/CinemaAutomation.Web/CinemaAutomation.Web/Views/Company/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcGFueVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DELL/Desktop/220709103_İlaydaDemir/CinemaAutomation.Web/CinemaAutomation.Web/Views/Halls/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGFsbHNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DELL/Desktop/220709103_İlaydaDemir/CinemaAutomation.Web/CinemaAutomation.Web/Views/Halls/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGFsbHNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DELL/Desktop/220709103_İlaydaDemir/CinemaAutomation.Web/CinemaAutomation.Web/Views/Halls/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGFsbHNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DELL/Desktop/220709103_İlaydaDemir/CinemaAutomation.Web/CinemaAutomation.Web/Views/Halls/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGFsbHNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DELL/Desktop/220709103_İlaydaDemir/CinemaAutomation.Web/CinemaAutomation.Web/Views/Halls/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGFsbHNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DELL/Desktop/220709103_İlaydaDemir/CinemaAutomation.Web/CinemaAutomation.Web/Views/Halls/ViewSeats.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGFsbHNcVmlld1NlYXRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DELL/Desktop/220709103_İlaydaDemir/CinemaAutomation.Web/CinemaAutomation.Web/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DELL/Desktop/220709103_İlaydaDemir/CinemaAutomation.Web/CinemaAutomation.Web/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DELL/Desktop/220709103_İlaydaDemir/CinemaAutomation.Web/CinemaAutomation.Web/Views/Movies/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aWVzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DELL/Desktop/220709103_İlaydaDemir/CinemaAutomation.Web/CinemaAutomation.Web/Views/Movies/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aWVzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DELL/Desktop/220709103_İlaydaDemir/CinemaAutomation.Web/CinemaAutomation.Web/Views/Movies/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aWVzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DELL/Desktop/220709103_İlaydaDemir/CinemaAutomation.Web/CinemaAutomation.Web/Views/Movies/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aWVzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DELL/Desktop/220709103_İlaydaDemir/CinemaAutomation.Web/CinemaAutomation.Web/Views/Movies/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aWVzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DELL/Desktop/220709103_İlaydaDemir/CinemaAutomation.Web/CinemaAutomation.Web/Views/Reports/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVwb3J0c1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DELL/Desktop/220709103_İlaydaDemir/CinemaAutomation.Web/CinemaAutomation.Web/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DELL/Desktop/220709103_İlaydaDemir/CinemaAutomation.Web/CinemaAutomation.Web/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DELL/Desktop/220709103_İlaydaDemir/CinemaAutomation.Web/CinemaAutomation.Web/Views/Showtimes/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hvd3RpbWVzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DELL/Desktop/220709103_İlaydaDemir/CinemaAutomation.Web/CinemaAutomation.Web/Views/Showtimes/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hvd3RpbWVzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DELL/Desktop/220709103_İlaydaDemir/CinemaAutomation.Web/CinemaAutomation.Web/Views/Showtimes/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hvd3RpbWVzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DELL/Desktop/220709103_İlaydaDemir/CinemaAutomation.Web/CinemaAutomation.Web/Views/Showtimes/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hvd3RpbWVzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DELL/Desktop/220709103_İlaydaDemir/CinemaAutomation.Web/CinemaAutomation.Web/Views/Showtimes/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hvd3RpbWVzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DELL/Desktop/220709103_İlaydaDemir/CinemaAutomation.Web/CinemaAutomation.Web/Views/Showtimes/ListByMovie.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hvd3RpbWVzXExpc3RCeU1vdmllLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DELL/Desktop/220709103_İlaydaDemir/CinemaAutomation.Web/CinemaAutomation.Web/Views/SnackShop/Cart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU25hY2tTaG9wXENhcnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DELL/Desktop/220709103_İlaydaDemir/CinemaAutomation.Web/CinemaAutomation.Web/Views/SnackShop/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU25hY2tTaG9wXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DELL/Desktop/220709103_İlaydaDemir/CinemaAutomation.Web/CinemaAutomation.Web/Views/SnackShop/OrderDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU25hY2tTaG9wXE9yZGVyRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DELL/Desktop/220709103_İlaydaDemir/CinemaAutomation.Web/CinemaAutomation.Web/Views/SnackShop/Orders.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU25hY2tTaG9wXE9yZGVycy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DELL/Desktop/220709103_İlaydaDemir/CinemaAutomation.Web/CinemaAutomation.Web/Views/Snacks/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU25hY2tzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DELL/Desktop/220709103_İlaydaDemir/CinemaAutomation.Web/CinemaAutomation.Web/Views/Snacks/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU25hY2tzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DELL/Desktop/220709103_İlaydaDemir/CinemaAutomation.Web/CinemaAutomation.Web/Views/Snacks/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU25hY2tzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DELL/Desktop/220709103_İlaydaDemir/CinemaAutomation.Web/CinemaAutomation.Web/Views/Snacks/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU25hY2tzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DELL/Desktop/220709103_İlaydaDemir/CinemaAutomation.Web/CinemaAutomation.Web/Views/Snacks/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU25hY2tzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DELL/Desktop/220709103_İlaydaDemir/CinemaAutomation.Web/CinemaAutomation.Web/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DELL/Desktop/220709103_İlaydaDemir/CinemaAutomation.Web/CinemaAutomation.Web/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DELL/Desktop/220709103_İlaydaDemir/CinemaAutomation.Web/CinemaAutomation.Web/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-ese47q19kx

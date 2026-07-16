@@ -1,0 +1,116 @@
+﻿@model CinemaAutomation.Web.ViewModels.BookingDetailsViewModel
+@* View model containing booking, movie, hall, seats and pricing details *@
+
+<style>
+    .details-title {
+        font-weight: 600;
+        color: #1f2933;
+        margin-bottom: 24px;
+    }
+
+    .details-card {
+        background: #ffffff;
+        border-radius: 16px;
+        padding: 24px;
+        box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+        margin-bottom: 24px;
+    }
+
+    .info-row {
+        margin-bottom: 10px;
+        font-size: 0.95rem;
+    }
+
+    .info-label {
+        font-weight: 600;
+        color: #495057;
+        margin-right: 6px;
+    }
+
+    .section-title {
+        margin-top: 24px;
+        margin-bottom: 12px;
+        font-weight: 600;
+        color: #1f2933;
+    }
+
+    ul.clean-list {
+        list-style: none;
+        padding-left: 0;
+        margin-bottom: 0;
+    }
+
+        ul.clean-list li {
+            background: #f8f9fa;
+            border-radius: 10px;
+            padding: 8px 14px;
+            margin-bottom: 8px;
+            font-size: 0.9rem;
+        }
+
+    .total-box {
+        background: #1f2933;
+        color: #ffffff;
+        border-radius: 14px;
+        padding: 16px;
+        font-size: 1.1rem;
+        font-weight: 600;
+        text-align: center;
+        margin-top: 24px;
+    }
+
+    .back-btn {
+        margin-top: 20px;
+    }
+</style>
+
+<h2 class="details-title">Booking Details</h2>
+
+<div class="details-card">
+
+    <div class="info-row">
+        <span class="info-label">Movie:</span>
+        <span>@Model.MovieName</span> @* Displays selected movie name *@
+    </div>
+
+    <div class="info-row">
+        <span class="info-label">Hall:</span>
+        <span>@Model.HallName</span> @* Displays hall name *@
+    </div>
+
+    <div class="info-row">
+        <span class="info-label">Start Time:</span>
+        <span>@Model.StartTime</span> @* Displays showtime start date and time *@
+    </div>
+
+    <h5 class="section-title">Selected Seats</h5>
+    <ul class="clean-list">
+        @* Iterates through selected seat identifiers *@
+        @foreach (var seat in Model.Seats)
+        {
+            <li>Seat @seat</li>
+        }
+    </ul>
+
+    <h5 class="section-title">Ticket Types</h5>
+    <ul class="clean-list">
+        @* Iterates through ticket types (e.g., Student, Full) *@
+        @foreach (var t in Model.Tickets)
+        {
+            <li>@t Ticket</li>
+        }
+    </ul>
+
+    <div class="total-box">
+        Total Amount: @Model.TotalAmount ₺ @* Displays calculated total booking amount *@
+    </div>
+
+</div>
+
+@* Navigates back to user's booking list *@
+<a class="btn btn-outline-secondary back-btn"
+   href="@Url.Action("MyBookings", "Booking")">
+    ← Back to My Bookings
+</a>
+
+

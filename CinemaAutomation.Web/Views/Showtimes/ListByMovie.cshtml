@@ -1,0 +1,146 @@
+﻿@model IEnumerable<CinemaAutomation.Web.Data.Entities.Showtime>
+
+@{
+    ViewData["Title"] = "Showtimes"; // Page title
+}
+
+<style>
+    .page-title {
+        font-weight: 900;
+        color: #111827;
+        margin-bottom: 18px;
+        letter-spacing: 0.4px;
+    }
+
+    .table-card {
+        background: #ffffff;
+        border-radius: 24px;
+        padding: 24px;
+        box-shadow: 0 16px 40px rgba(0,0,0,0.14);
+    }
+
+    table {
+        font-size: 0.95rem;
+    }
+
+    thead th {
+        background: #111827 !important;
+        color: #ffffff;
+        font-weight: 800;
+        padding: 14px;
+        text-align: center;
+        border-bottom: none;
+    }
+
+    tbody td {
+        text-align: center;
+        vertical-align: middle;
+        padding: 14px;
+    }
+
+    tbody tr:hover {
+        background-color: #f9fafb;
+    }
+
+    .price-badge {
+        display: inline-block;
+        padding: 6px 14px;
+        border-radius: 14px;
+        font-weight: 700;
+        background-color: #dcfce7;
+        color: #166534;
+        font-size: 0.85rem;
+    }
+
+    .select-btn {
+        border-radius: 16px;
+        padding: 8px 20px;
+        font-weight: 800;
+        font-size: 0.85rem;
+        border: none;
+        background: linear-gradient(135deg, #22c55e, #16a34a);
+        color: #ffffff;
+        transition: all 0.25s ease;
+        text-decoration: none;
+        display: inline-block;
+    }
+
+        .select-btn:hover {
+            background: linear-gradient(135deg, #16a34a, #15803d);
+            transform: translateY(-2px);
+            box-shadow: 0 12px 26px rgba(34, 197, 94, 0.45);
+            color: #ffffff;
+        }
+
+    .empty-text {
+        text-align: center;
+        color: #6b7280;
+        font-weight: 600;
+        margin-top: 20px;
+    }
+</style>
+
+<!-- Movie title and related showtimes -->
+<h2 class="page-title">
+    @ViewBag.MovieTitle — Showtimes
+</h2>
+
+<div class="table-card">
+    <table class="table table-bordered table-hover align-middle mb-0">
+        <!-- Table columns -->
+        <thead>
+            <tr>
+                <th>Start Time</th>
+                <th>Hall</th>
+                <th>Price</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @* Show empty message if no showtimes exist *@
+            @if (!Model.Any())
+            {
+                <tr>
+                    <td colspan="4" class="empty-text">
+                        No showtimes available for this movie.
+                    </td>
+                </tr>
+            }
+            else
+            {
+                @* Loop through available showtimes *@
+                @foreach (var s in Model)
+                {
+                    <tr>
+                        <td>
+                            @s.StartTime.ToString("dd.MM.yyyy HH:mm") @* Formatted start time *@
+                        </td>
+
+                        <td>
+                            @s.Hall.Name @* Related hall name *@
+                        </td>
+
+                        <td>
+                            <span class="price-badge">
+                                @s.TicketBasePrice ₺ @* Base ticket price *@
+                            </span>
+                        </td>
+
+                        <td>
+                            @* Redirect to seat selection for selected showtime *@
+                            <a class="select-btn"
+                               asp-controller="Booking"
+                               asp-action="SelectSeats"
+                               asp-route-showtimeId="@s.ShowtimeId">
+                                Select Seats
+                            </a>
+                        </td>
+                    </tr>
+                }
+            }
+        </tbody>
+    </table>
+</div>
+
+
+

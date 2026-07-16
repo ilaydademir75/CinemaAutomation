@@ -1,0 +1,194 @@
+﻿@model CinemaAutomation.Web.Data.Entities.Movie
+@* View model representing the movie to be edited *@
+
+@{
+    ViewData["Title"] = "Edit Movie"; // Sets page title
+}
+
+<style>
+    .page-title {
+        font-weight: 900;
+        color: #111827;
+        margin-bottom: 6px;
+        letter-spacing: 0.4px;
+        text-align: center;
+    }
+
+    .page-sub {
+        color: #6b7280;
+        margin-bottom: 32px;
+        font-size: 0.95rem;
+        text-align: center;
+    }
+
+    .form-wrapper {
+        display: flex;
+        justify-content: center;
+    }
+
+    .form-card {
+        background: #ffffff;
+        border-radius: 24px;
+        padding: 34px;
+        box-shadow: 0 16px 40px rgba(0,0,0,0.14);
+        width: 100%;
+        max-width: 560px;
+    }
+
+    h4, hr {
+        display: none;
+    }
+
+    label.control-label {
+        font-weight: 600;
+        color: #374151;
+        margin-bottom: 6px;
+    }
+
+    .form-group {
+        margin-bottom: 16px;
+    }
+
+    .form-control {
+        border-radius: 14px;
+        padding: 10px 14px;
+        font-size: 0.95rem;
+    }
+
+        .form-control:focus {
+            border-color: #ec4899;
+            box-shadow: 0 0 0 0.2rem rgba(236, 72, 153, 0.25);
+        }
+
+    .form-check {
+        margin-top: 8px;
+        margin-bottom: 18px;
+    }
+
+    .form-check-label {
+        font-weight: 600;
+        color: #374151;
+    }
+
+    .save-btn {
+        border-radius: 18px;
+        padding: 14px 32px;
+        font-weight: 800;
+        font-size: 0.95rem;
+        width: 100%;
+        border: none;
+        background: linear-gradient(135deg, #ec4899, #db2777);
+        color: #ffffff;
+        letter-spacing: 0.4px;
+        transition: all 0.25s ease;
+    }
+
+        .save-btn:hover {
+            background: linear-gradient(135deg, #db2777, #be185d);
+            transform: translateY(-2px);
+            box-shadow: 0 14px 30px rgba(236, 72, 153, 0.45);
+        }
+
+        .save-btn:active {
+            transform: translateY(0);
+            box-shadow: 0 8px 18px rgba(236, 72, 153, 0.35);
+        }
+
+    .back-link {
+        display: block;
+        text-align: center;
+        margin-top: 18px;
+        font-weight: 600;
+        color: #2563eb;
+        text-decoration: none;
+    }
+
+        .back-link:hover {
+            text-decoration: underline;
+        }
+</style>
+
+<h2 class="page-title">Edit Movie</h2>
+<p class="page-sub">Update movie information and availability</p>
+
+<div class="form-wrapper">
+    <div class="form-card">
+
+        <form asp-action="Edit">
+            @* Posts form data to Edit action *@
+            <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+            @* Displays model-level validation errors *@
+
+            <input type="hidden" asp-for="MovieId" />
+            @* Hidden field to preserve movie ID during post *@
+
+            <div class="form-group">
+                <label asp-for="Title" class="control-label"></label>
+                <input asp-for="Title" class="form-control" />
+                <span asp-validation-for="Title" class="text-danger"></span>
+                @* Movie title input *@
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Description" class="control-label"></label>
+                <input asp-for="Description" class="form-control" />
+                <span asp-validation-for="Description" class="text-danger"></span>
+                @* Movie description input *@
+            </div>
+
+            <div class="form-group">
+                <label asp-for="DurationMinutes" class="control-label"></label>
+                <input asp-for="DurationMinutes" class="form-control" />
+                <span asp-validation-for="DurationMinutes" class="text-danger"></span>
+                @* Movie duration in minutes *@
+            </div>
+
+            <div class="form-group">
+                <label asp-for="PosterPath" class="control-label"></label>
+                <input asp-for="PosterPath" class="form-control" />
+                <span asp-validation-for="PosterPath" class="text-danger"></span>
+                @* Path or URL of the movie poster *@
+            </div>
+
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="IsActive" />
+                    @Html.DisplayNameFor(model => model.IsActive)
+                </label>
+                @* Toggles movie active/passive status *@
+            </div>
+
+            <div class="form-group">
+                <label asp-for="CreatedAt" class="control-label"></label>
+                <input asp-for="CreatedAt" class="form-control" />
+                <span asp-validation-for="CreatedAt" class="text-danger"></span>
+                @* Displays creation date (usually read-only in practice) *@
+            </div>
+
+            <div class="form-group">
+                <input type="submit"
+                       value="Save Changes"
+                       class="save-btn" />
+                @* Submits updated movie data *@
+            </div>
+        </form>
+
+    </div>
+</div>
+
+<a asp-action="Index" class="back-link">
+    ← Back to Movie List
+</a>
+@* Navigates back to movie list *@
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+    @* Enables client-side validation *@
+}
+
+
+
+
+

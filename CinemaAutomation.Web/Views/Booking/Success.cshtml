@@ -1,0 +1,72 @@
+﻿@{
+    ViewData["Title"] = "Payment Successful"; // Sets the page title
+}
+
+<style>
+    .success-wrapper {
+        display: flex;
+        justify-content: center;
+        margin-top: 60px;
+    }
+
+    .success-card {
+        background: #ffffff;
+        border-radius: 22px;
+        padding: 40px;
+        text-align: center;
+        box-shadow: 0 14px 34px rgba(0,0,0,0.12);
+        max-width: 520px;
+        width: 100%;
+    }
+
+    .success-icon {
+        font-size: 3.2rem;
+        color: #198754;
+        margin-bottom: 16px;
+    }
+
+    .success-title {
+        font-weight: 700;
+        color: #1f2933;
+        margin-bottom: 10px;
+    }
+
+    .success-text {
+        color: #495057;
+        font-size: 0.95rem;
+        margin-bottom: 26px;
+    }
+
+    .success-btn {
+        border-radius: 16px;
+        padding: 10px 28px;
+        font-weight: 600;
+        font-size: 0.95rem;
+    }
+</style>
+
+<div class="success-wrapper">
+    <div class="success-card">
+
+        <div class="success-icon">✅</div>
+
+        <h2 class="success-title">
+            Payment Completed Successfully!
+        </h2>
+
+        <p class="success-text">
+            Your seats have been successfully booked and marked as
+            <strong>Sold</strong>. @* Indicates booking completion *@
+        </p>
+
+        @* Navigates user back to home page after successful payment *@
+        <a class="btn btn-primary success-btn"
+           asp-controller="Home"
+           asp-action="Index">
+            Go to Home
+        </a>
+
+    </div>
+</div>
+
+

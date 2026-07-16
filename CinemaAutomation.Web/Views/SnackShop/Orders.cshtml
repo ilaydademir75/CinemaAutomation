@@ -1,0 +1,111 @@
+﻿@model IEnumerable<CinemaAutomation.Web.Data.Entities.SnackOrder>
+
+@{
+    ViewData["Title"] = "My Snack Orders";
+}
+
+<style>
+    .page-title {
+        font-weight: 900;
+        color: #1e293b;
+        margin-bottom: 12px;
+        letter-spacing: 0.4px;
+    }
+
+    .orders-card {
+        background: #ffffff;
+        border-radius: 20px;
+        padding: 24px;
+        box-shadow: 0 12px 30px rgba(0,0,0,0.12);
+    }
+
+    .empty-text {
+        color: #64748b;
+        font-weight: 600;
+    }
+
+    thead th {
+        background: #1e293b !important;
+        color: #ffffff;
+        font-weight: 800;
+        padding: 14px;
+        text-align: center;
+        border-bottom: none;
+    }
+
+    tbody td {
+        text-align: center;
+        vertical-align: middle;
+        padding: 14px;
+        font-size: 0.95rem;
+    }
+
+    tbody tr:hover {
+        background-color: #f8fafc;
+    }
+
+    .total-badge {
+        background-color: #e0f2fe;
+        color: #075985;
+        padding: 6px 14px;
+        border-radius: 14px;
+        font-weight: 800;
+        font-size: 0.85rem;
+    }
+
+    .view-btn {
+        border-radius: 14px;
+        padding: 6px 14px;
+        font-weight: 700;
+    }
+</style>
+
+@* Page heading *@
+<h2 class="page-title">My Snack Orders</h2>
+
+@* Show empty state if user has no snack orders *@
+@if (!Model.Any())
+{
+    <p class="empty-text">You have no snack orders yet.</p>
+}
+else
+{
+    <div class="orders-card">
+        @* Table listing all snack orders of the user *@
+        <table class="table table-bordered table-hover align-middle mb-0">
+            <thead>
+                <tr>
+                    <th>Order #</th>
+                    <th>Date</th>
+                    <th>Total Amount</th>
+                    <th>Details</th>
+                </tr>
+            </thead>
+            <tbody>
+                @* Iterate through user's snack orders *@
+                @foreach (var order in Model)
+                {
+                    <tr>
+                        <td>@order.SnackOrderId</td>
+                        <td>@order.OrderDate.ToString("dd/MM/yyyy HH:mm")</td> @* Order creation date *@
+                        @* Total amount paid for this order *@
+                        <td>
+                            <span class="total-badge">
+                                @order.TotalAmount ₺
+                            </span>
+                        </td>
+                        @* Link to order detail page *@
+                        <td>
+                            <a asp-action="OrderDetails"
+                               asp-route-id="@order.SnackOrderId"
+                               class="btn btn-outline-primary btn-sm view-btn">
+                                View
+                            </a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+}
+
