@@ -1,0 +1,126 @@
+@startuml
+' ER diagram for CinemaAutomationDb
+
+entity Users {
+  *UserId : int <<PK>>
+  --
+  FullName : nvarchar(100)
+  Email : nvarchar(100)
+  PasswordHash : nvarchar(200)
+  Role : nvarchar(20)
+  CreatedAt : datetime2
+  IsActive : bit
+}
+
+entity Movies {
+  *MovieId : int <<PK>>
+  --
+  Title : nvarchar(100)
+  Description : nvarchar(1000)
+  DurationMinutes : int
+  PosterPath : nvarchar(255)
+  IsActive : bit
+}
+
+entity Halls {
+  *HallId : int <<PK>>
+  --
+  Name : nvarchar(50)
+  Capacity : int
+  IsActive : bit
+}
+
+entity Seats {
+  *SeatId : int <<PK>>
+  --
+  HallId : int <<FK>>
+  RowNumber : int
+  SeatNumber : int
+  IsActive : bit
+}
+
+entity Showtimes {
+  *ShowtimeId : int <<PK>>
+  --
+  MovieId : int <<FK>>
+  HallId : int <<FK>>
+  StartTime : datetime2
+  TicketBasePrice : decimal(10,2)
+  IsActive : bit
+}
+
+entity Bookings {
+  *BookingId : int <<PK>>
+  --
+  UserId : int <<FK>>
+  ShowtimeId : int <<FK>>
+  BookingStatus : nvarchar(20)
+  TotalAmount : decimal(10,2)
+  CreatedAt : datetime2
+  ReservationExpiresAt : datetime2
+  RowVersion : rowversion
+}
+
+entity BookingSeats {
+  *BookingSeatId : int <<PK>>
+  --
+  BookingId : int <<FK>>
+  SeatId : int <<FK>>
+  TicketType : nvarchar(10)
+  UnitPrice : decimal(10,2)
+  SeatStatus : nvarchar(20)
+}
+
+entity Orders {
+  *OrderId : int <<PK>>
+  --
+  UserId : int <<FK>>
+  BookingId : int <<FK>>
+  OrderTotal : decimal(10,2)
+  PaymentStatus : nvarchar(20)
+  CreatedAt : datetime2
+}
+
+entity Snacks {
+  *SnackId : int <<PK>>
+  --
+  Name : nvarchar(100)
+  UnitPrice : decimal(10,2)
+  StockQuantity : int
+  IsActive : bit
+}
+
+entity OrderSnacks {
+  *OrderSnackId : int <<PK>>
+  --
+  OrderId : int <<FK>>
+  SnackId : int <<FK>>
+  Quantity : int
+  UnitPrice : decimal(10,2)
+}
+
+entity AuditLogs {
+  *AuditLogId : int <<PK>>
+  --
+  EntityName : nvarchar(50)
+  EntityId : int
+  OperationType : nvarchar(20)
+  OldValue : nvarchar(max)
+  NewValue : nvarchar(max)
+  PerformedAt : datetime2
+  PerformedByUserId : int
+}
+
+Users ||--o{ Bookings : has
+Users ||--o{ Orders : has
+Movies ||--o{ Showtimes : has
+Halls ||--o{ Seats : has
+Halls ||--o{ Showtimes : has
+Showtimes ||--o{ Bookings : has
+Bookings ||--o{ BookingSeats : has
+Seats ||--o{ BookingSeats : has
+Bookings ||--o{ Orders : may_have
+Snacks ||--o{ OrderSnacks : has
+Orders ||--o{ OrderSnacks : has
+
+@enduml
